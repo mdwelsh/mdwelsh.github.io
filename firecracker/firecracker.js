@@ -8,16 +8,18 @@ canvas.height = document.body.clientHeight;
 
 // Create gradient
 var ctx = canvas.getContext("2d");
-var grd = ctx.createLinearGradient(0, 0, 0, 200);
-grd.addColorStop(0, "gray");
-grd.addColorStop(1, "black");
-ctx.fillStyle = grd;
+ctx.fillStyle = "black";
 ctx.fillRect(0, 0, canvas.width, canvas.height);
 
 // Write text
 ctx.font = "20px Verdana";
 ctx.fillStyle = "white";
 ctx.fillText("Sidney's Fireworks Studio", 10, 40);
+
+function Point(x, y) {
+  this.x = Math.floor(x);
+  this.y = Math.floor(y);
+}
 
 function Flash(sx, sy) {
   this.sx = sx;
@@ -36,17 +38,11 @@ function Flash(sx, sy) {
     if (Math.random() < 0.5) {
       my = -1;
     }
-    console.log("MDW: mx " + mx);
-    console.log("MDW: my " + my);
-    console.log("MDW: lx " + lx);
-    console.log("MDW: ly " + ly);
-    console.log("MDW: sx " + this.sx);
-    console.log("MDW: sy " + this.sy);
-
     var ex = this.sx + (mx * lx);
     var ey = this.sy + (my * ly);
     console.log("MDW: Adding arc: " + ex + ", " + ey);
-    this.arcs = this.arcs + [ex, ey];
+    var p = new Point(ex, ey);
+    this.arcs.push(p);
   }
   console.log("MDW: Constructor arcs: " + this.arcs);
 }
@@ -58,23 +54,33 @@ Flash.prototype.boom = function() {
 
 Flash.prototype.draw = function(fade) {
   var ctx = canvas.getContext("2d");
+  ctx.lineWidth = 50;
+  ctx.lineCap = "round";
   ctx.beginPath();
   for (i = 0; i < this.arcs.length; i++) {
+    console.log("MDW: drawing arc " + this.arcs[i].x + ", " + this.arcs[i].y);
     ctx.moveTo(this.sx, this.sy);
-    ctx.lineTo(this.arcs[i][0], this.arcs[i][1]);
+    ctx.lineTo(this.arcs[i].x, this.arcs[i].y);
     ctx.moveTo(this.sx, this.sy);
   }
   ctx.closePath();
+
+  var grd = ctx.createRadialGradient(this.sx, this.sy, 20, this.sx, this.sy, 500);
+  grd.addColorStop(0, "red");
+
   var r = Math.floor(255.0 * fade);
   var g = Math.floor(40.0 * fade);
   var b = Math.floor(40.0 * fade);
-  ctx.strokeStyle = "rgb(" + r + ", " + g + ", " + b + ")";
+  grd.addColorStop(0, "rgb(" + r + ", " + g + ", " + b + ")");
+  grd.addColorStop(1, "black");
+  ctx.strokeStyle = grd;
+
   console.log("MDW: flash drawing with " + ctx.strokeStyle);
   ctx.stroke();
   if (fade > 0.0) {
-    console.log("MDW: Setting timeout");
+    var f = this;
     setTimeout(function() {
-      this.draw(fade - 0.1);
+      f.draw(fade - 0.1);
     }, 100);
   }
 }

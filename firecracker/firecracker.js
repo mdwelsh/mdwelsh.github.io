@@ -51,35 +51,18 @@ function Flash(sx, sy) {
   console.log("MDW: Constructor arcs: " + this.arcs);
 }
 
-flash = function(sx, sy, fade) {
-  console.log("MDW: flash called with " + sx + ", " + sy + ", " + fade);
+Flash.prototype.boom = function() {
+  this.draw(1.0);
+  boom.play();
+}
 
-  var f = new Flash(sx, sy);
-  console.log("MDW: Created arcs: " + f.arcs);
-
+Flash.prototype.draw = function(fade) {
   var ctx = canvas.getContext("2d");
-  var numarcs = 5 + Math.floor(Math.random() * 11);
   ctx.beginPath();
-  for (i = 0; i < numarcs; i++) {
-    var lx = Math.random() * 300;
-    var ly = Math.random() * 300;
-    var mx = 1;
-    var my = 1;
-    if (Math.random() < 0.5) {
-      mx = -1;
-    }
-    if (Math.random() < 0.5) {
-      my = -1;
-    }
-    var ex = sx + (mx * lx);
-    var ey = sy + (my * ly);
-
-    var grd = ctx.createLinearGradient(0, 0, 0, 100);
-    grd.addColorStop(0, "red");
-    grd.addColorStop(1, "orange");
-    ctx.moveTo(sx, sy);
-    ctx.lineTo(ex, ey);
-    ctx.moveTo(sx, sy);
+  for (i = 0; i < this.arcs.length; i++) {
+    ctx.moveTo(this.sx, this.sy);
+    ctx.lineTo(this.arcs[i][0], this.arcs[i][1]);
+    ctx.moveTo(this.sx, this.sy);
   }
   ctx.closePath();
   var r = Math.floor(255.0 * fade);
@@ -88,16 +71,19 @@ flash = function(sx, sy, fade) {
   ctx.strokeStyle = "rgb(" + r + ", " + g + ", " + b + ")";
   console.log("MDW: flash drawing with " + ctx.strokeStyle);
   ctx.stroke();
-
-  if (fade == 1.0) {
-    boom.play();
-  }
   if (fade > 0.0) {
     console.log("MDW: Setting timeout");
     setTimeout(function() {
-      flash(sx, sy, fade - 0.1);
+      this.draw(fade - 0.1);
     }, 100);
   }
+}
+
+flash = function(sx, sy, fade) {
+  console.log("MDW: flash called with " + sx + ", " + sy + ", " + fade);
+  var f = new Flash(sx, sy);
+  console.log("MDW: Created arcs: " + f.arcs);
+  f.boom();
 }
 
 clickHandler = function(event) {

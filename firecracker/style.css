@@ -1,0 +1,14 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+#container {
+  min-height: 100%; 
+  overflow: hidden;
+}
+#myCanvas {
+  position: absolute; 
+  top: 0px;
+  left: 0px;
+  border 1px solid red;
+} 

@@ -19,8 +19,44 @@ ctx.font = "20px Verdana";
 ctx.fillStyle = "white";
 ctx.fillText("Sidney's Fireworks Studio", 10, 40);
 
+function Flash(sx, sy) {
+  this.sx = sx;
+  this.sy = sy;
+  this.numarcs = 5 + Math.floor(Math.random() * 11);
+
+  this.arcs = [];
+  for (i = 0; i < this.numarcs; i++) {
+    var lx = Math.random() * 300;
+    var ly = Math.random() * 300;
+    var mx = 1;
+    var my = 1;
+    if (Math.random() < 0.5) {
+      mx = -1;
+    }
+    if (Math.random() < 0.5) {
+      my = -1;
+    }
+    console.log("MDW: mx " + mx);
+    console.log("MDW: my " + my);
+    console.log("MDW: lx " + lx);
+    console.log("MDW: ly " + ly);
+    console.log("MDW: sx " + this.sx);
+    console.log("MDW: sy " + this.sy);
+
+    var ex = this.sx + (mx * lx);
+    var ey = this.sy + (my * ly);
+    console.log("MDW: Adding arc: " + ex + ", " + ey);
+    this.arcs = this.arcs + [ex, ey];
+  }
+  console.log("MDW: Constructor arcs: " + this.arcs);
+}
+
 flash = function(sx, sy, fade) {
   console.log("MDW: flash called with " + sx + ", " + sy + ", " + fade);
+
+  var f = new Flash(sx, sy);
+  console.log("MDW: Created arcs: " + f.arcs);
+
   var ctx = canvas.getContext("2d");
   var numarcs = 5 + Math.floor(Math.random() * 11);
   ctx.beginPath();
@@ -46,10 +82,11 @@ flash = function(sx, sy, fade) {
     ctx.moveTo(sx, sy);
   }
   ctx.closePath();
-  var r = 255 * fade;
-  var g = 100 * fade;
-  var b = 100 * fade;
+  var r = Math.floor(255.0 * fade);
+  var g = Math.floor(40.0 * fade);
+  var b = Math.floor(40.0 * fade);
   ctx.strokeStyle = "rgb(" + r + ", " + g + ", " + b + ")";
+  console.log("MDW: flash drawing with " + ctx.strokeStyle);
   ctx.stroke();
 
   if (fade == 1.0) {

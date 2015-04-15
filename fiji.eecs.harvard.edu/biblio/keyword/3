@@ -1,0 +1,196 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+  <head>
+    <title>Biblio | Harvard Sensor Networks Lab</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="http://fiji.eecs.harvard.edu/sites/default/files/garland_favicon.png" type="image/x-icon" />
+    <link type="text/css" rel="stylesheet" media="all" href="http://fiji.eecs.harvard.edu/modules/node/node.css?M" />
+<link type="text/css" rel="stylesheet" media="all" href="http://fiji.eecs.harvard.edu/modules/system/defaults.css?M" />
+<link type="text/css" rel="stylesheet" media="all" href="http://fiji.eecs.harvard.edu/modules/system/system.css?M" />
+<link type="text/css" rel="stylesheet" media="all" href="http://fiji.eecs.harvard.edu/modules/system/system-menus.css?M" />
+<link type="text/css" rel="stylesheet" media="all" href="http://fiji.eecs.harvard.edu/modules/user/user.css?M" />
+<link type="text/css" rel="stylesheet" media="all" href="http://fiji.eecs.harvard.edu/sites/all/modules/extlink/extlink.css?M" />
+<link type="text/css" rel="stylesheet" media="all" href="http://fiji.eecs.harvard.edu/sites/all/modules/biblio/biblio.css?M" />
+<link type="text/css" rel="stylesheet" media="all" href="http://fiji.eecs.harvard.edu/sites/default/files/color/garland-8486e3b5/style.css?M" />
+<link type="text/css" rel="stylesheet" media="print" href="http://fiji.eecs.harvard.edu/themes/garland/print.css?M" />
+    <script type="text/javascript" src="http://fiji.eecs.harvard.edu/misc/jquery.js?M"></script>
+<script type="text/javascript" src="http://fiji.eecs.harvard.edu/misc/drupal.js?M"></script>
+<script type="text/javascript" src="http://fiji.eecs.harvard.edu/sites/all/modules/extlink/extlink.js?M"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "extlink": { "extTarget": 0, "extClass": "ext", "extSubdomains": 0, "mailtoClass": "mailto" } });
+//--><!]]>
+</script>
+    <!--[if lt IE 7]>
+      <link type="text/css" rel="stylesheet" media="all" href="/themes/garland/fix-ie.css" />    <![endif]-->
+  </head>
+  <body class="sidebars">
+
+<!-- Layout -->
+  <div id="header-region" class="clear-block"></div>
+
+    <div id="wrapper">
+    <div id="container" class="clear-block">
+
+      <div id="header">
+        <div id="logo-floater">
+        <h1><a href="../../index.html" title="Harvard Sensor Networks Lab"><img src="http://fiji.eecs.harvard.edu/sites/default/files/garland_logo.png" alt="Harvard Sensor Networks Lab" id="logo" /><span>Harvard Sensor Networks Lab</span></a></h1>        </div>
+
+                  <ul class="links primary-links"><li class="menu-127 first"><a href="../../index.html" title="Home">Home</a></li>
+<li class="menu-126"><a href="../../People" title="People">People</a></li>
+<li class="menu-227 active-trail"><a href="../filter/clear" title="Research papers">Publications</a></li>
+<li class="menu-236"><a href="../../Talks" title="Presentation slides">Talks</a></li>
+<li class="menu-233"><a href="../../Downloads" title="Software and hardware designs we have released.">Downloads</a></li>
+<li class="menu-196"><a href="../../blog" title="Project news and blog postings">News</a></li>
+<li class="menu-197"><a href="../../Sponsors" title="">Sponsors</a></li>
+<li class="menu-232 last"><a href="../../Contact" title="">Contact</a></li>
+</ul>                                  
+      </div> <!-- /header -->
+
+              <div id="sidebar-left" class="sidebar">
+                    <div id="block-menu-primary-links" class="clear-block block block-menu">
+
+
+  <div class="content"><ul class="menu"><li class="leaf first"><a href="../../index.html" title="Home">Home</a></li>
+<li class="leaf"><a href="../../People" title="People">People</a></li>
+<li class="leaf active-trail"><a href="../filter/clear" title="Research papers">Publications</a></li>
+<li class="leaf"><a href="../../Talks" title="Presentation slides">Talks</a></li>
+<li class="leaf"><a href="../../Downloads" title="Software and hardware designs we have released.">Downloads</a></li>
+<li class="leaf"><a href="../../blog" title="Project news and blog postings">News</a></li>
+<li class="leaf"><a href="../../Sponsors" title="">Sponsors</a></li>
+<li class="leaf last"><a href="../../Contact" title="">Contact</a></li>
+</ul></div>
+</div>
+        </div>
+      
+      <div id="center"><div id="squeeze"><div class="right-corner"><div class="left-corner">
+          <div class="breadcrumb"><a href="../../index.html">Home</a></div>                              <h2>Biblio</h2>                                                  <div class="clear-block">
+            <div class="biblio-export">Found 13 results</div><br /><div class="biblio-current-filters"><b>Filters: </b><strong><em>Keyword</em></strong> is <strong><em>Macroprogramming</em></strong>&nbsp;&nbsp;<a href="../filter/clear">[Clear All Filters]</a></div><div class="biblio-year">2008</div>
+<div class="biblio-entry">
+<span class="biblio-title"><a href="../../node/112">Resource Aware Programming in the Pixie OS</a></span>, 
+<span class="biblio-authors"><span class="biblio_authors"><span id="1"><a href="http://fiji.eecs.harvard.edu/biblio/author/1">Konrad Lorincz</a></span>, <span id="1"><a href="http://fiji.eecs.harvard.edu/biblio/author/2">Bor-rong Chen</a></span>, <span id="1"><a href="http://fiji.eecs.harvard.edu/biblio/author/3">Jason Waterman</a></span>, <span id="1"><a href="http://fiji.eecs.harvard.edu/biblio/author/4">Geoff Werner-Allen</a></span>, <span id="1"><a href="http://fiji.eecs.harvard.edu/biblio/author/5">Matt Welsh</a></span></span></span>, 6th ACM Conference on Embedded Networked Sensor Systems (SenSys&#039;08), November, 2008
+[<a href="http://www.eecs.harvard.edu/~mdw/papers/pixie-sensys08.pdf">Full text</a>]<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Ffiji.eecs.harvard.edu&amp;rft.title=Resource+Aware+Programming+in+the+Pixie+OS&amp;rft.date=2008&amp;rft.aulast=Lorincz&amp;rft.aufirst=Konrad&amp;rft.au=Lorincz%2C+Konrad&amp;rft.au=Chen%2C+Bor-rong&amp;rft.au=Waterman%2C+Jason&amp;rft.au=Werner-Allen%2C+Geoff&amp;rft.au=Welsh%2C+Matt&amp;rft_id=http%3A%2F%2Fwww.eecs.harvard.edu%2F%7Emdw%2Fpapers%2Fpixie-sensys08.pdf"></span></div>
+<div class="biblio-entry">
+<span class="biblio-title"><a href="../../node/113">Lance: Optimizing High-Resolution Signal Collection in Wireless Sensor Networks</a></span>, 
+<span class="biblio-authors"><span class="biblio_authors"><span id="1"><a href="http://fiji.eecs.harvard.edu/biblio/author/4">Geoff Werner-Allen</a></span>, <span id="1"><a href="http://fiji.eecs.harvard.edu/biblio/author/6">Stephen Dawson-Haggerty</a></span>, <span id="1"><a href="http://fiji.eecs.harvard.edu/biblio/author/5">Matt Welsh</a></span></span></span>, 6th ACM Conference on Embedded Networked Sensor Systems (SenSys&#039;08), November, 2008
+[<a href="http://www.eecs.harvard.edu/~mdw/papers/lance-sensys08.pdf">Full text</a>]<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Ffiji.eecs.harvard.edu&amp;rft.title=Lance%3A+Optimizing+High-Resolution+Signal+Collection+in+Wireless+Sensor+Networks&amp;rft.date=2008&amp;rft.aulast=Werner-Allen&amp;rft.aufirst=Geoff&amp;rft.au=Werner-Allen%2C+Geoff&amp;rft.au=Dawson-Haggerty%2C+Stephen&amp;rft.au=Welsh%2C+Matt&amp;rft_id=http%3A%2F%2Fwww.eecs.harvard.edu%2F%7Emdw%2Fpapers%2Flance-sensys08.pdf"></span></div>
+<div class="biblio-entry">
+<span class="biblio-title"><a href="../../node/115">Flask: Staged Functional Programming for Sensor Networks</a></span>, 
+<span class="biblio-authors"><span class="biblio_authors"><span id="1"><a href="http://fiji.eecs.harvard.edu/biblio/author/10">Geoffrey Mainland</a></span>, <span id="1"><a href="http://fiji.eecs.harvard.edu/biblio/author/11">Greg Morrisett</a></span>, <span id="1"><a href="http://fiji.eecs.harvard.edu/biblio/author/5">Matt Welsh</a></span></span></span>, 13th ACM SIGPLAN International Conference on Functional Programming (ICFP 2008), September, 2008
+[<a href="http://www.eecs.harvard.edu/~mdw/papers/flask-icfp08.pdf">Full text</a>]<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Ffiji.eecs.harvard.edu&amp;rft.title=Flask%3A+Staged+Functional+Programming+for+Sensor+Networks&amp;rft.date=2008&amp;rft.aulast=Mainland&amp;rft.aufirst=Geoffrey&amp;rft.au=Mainland%2C+Geoffrey&amp;rft.au=Morrisett%2C+Greg&amp;rft.au=Welsh%2C+Matt&amp;rft_id=http%3A%2F%2Fwww.eecs.harvard.edu%2F%7Emdw%2Fpapers%2Fflask-icfp08.pdf"></span></div>
+<div class="biblio-entry">
+<span class="biblio-title"><a href="../../node/116">Pixie: An Operating System for Resource-Aware Programming of Embedded Sensors</a></span>, 
+<span class="biblio-authors"><span class="biblio_authors"><span id="1"><a href="http://fiji.eecs.harvard.edu/biblio/author/1">Konrad Lorincz</a></span>, <span id="1"><a href="http://fiji.eecs.harvard.edu/biblio/author/2">Bor-rong Chen</a></span>, <span id="1"><a href="http://fiji.eecs.harvard.edu/biblio/author/3">Jason Waterman</a></span>, <span id="1"><a href="http://fiji.eecs.harvard.edu/biblio/author/4">Geoff Werner-Allen</a></span>, <span id="1"><a href="http://fiji.eecs.harvard.edu/biblio/author/5">Matt Welsh</a></span></span></span>, Fifth Workshop on Embedded Networked Sensors (HotEmNets&#039;08), June, 2008
+[<a href="http://www.eecs.harvard.edu/~mdw/papers/pixie-emnets08.pdf">Full text</a>]<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Ffiji.eecs.harvard.edu&amp;rft.title=Pixie%3A+An+Operating+System+for+Resource-Aware+Programming+of+Embedded+Sensors&amp;rft.date=2008&amp;rft.aulast=Lorincz&amp;rft.aufirst=Konrad&amp;rft.au=Lorincz%2C+Konrad&amp;rft.au=Chen%2C+Bor-rong&amp;rft.au=Waterman%2C+Jason&amp;rft.au=Werner-Allen%2C+Geoff&amp;rft.au=Welsh%2C+Matt&amp;rft_id=http%3A%2F%2Fwww.eecs.harvard.edu%2F%7Emdw%2Fpapers%2Fpixie-emnets08.pdf"></span></div>
+<div class="biblio-year">2007</div>
+<div class="biblio-entry">
+<span class="biblio-title"><a href="../../node/127">The Regiment Macroprogramming System</a></span>, 
+<span class="biblio-authors"><span class="biblio_authors"><span id="1"><a href="http://fiji.eecs.harvard.edu/biblio/author/42">Ryan Newton</a></span>, <span id="1"><a href="http://fiji.eecs.harvard.edu/biblio/author/11">Greg Morrisett</a></span>, <span id="1"><a href="http://fiji.eecs.harvard.edu/biblio/author/5">Matt Welsh</a></span></span></span>, International Conference on Information Processing in Sensor Networks (IPSN&#039;07), April, 2007
+[<a href="http://www.eecs.harvard.edu/~mdw/papers/regiment-ipsn07.pdf">Full text</a>]<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Ffiji.eecs.harvard.edu&amp;rft.title=The+Regiment+Macroprogramming+System&amp;rft.date=2007&amp;rft.aulast=Newton&amp;rft.aufirst=Ryan&amp;rft.au=Newton%2C+Ryan&amp;rft.au=Morrisett%2C+Greg&amp;rft.au=Welsh%2C+Matt&amp;rft_id=http%3A%2F%2Fwww.eecs.harvard.edu%2F%7Emdw%2Fpapers%2Fregiment-ipsn07.pdf"></span></div>
+<div class="biblio-year">2006</div>
+<div class="biblio-entry">
+<span class="biblio-title"><a href="../../node/134">Flask: A Language for Data-driven Sensor Network Programs</a></span>, 
+<span class="biblio-authors"><span class="biblio_authors"><span id="1"><a href="http://fiji.eecs.harvard.edu/biblio/author/10">Geoffrey Mainland</a></span>, <span id="1"><a href="http://fiji.eecs.harvard.edu/biblio/author/5">Matt Welsh</a></span>, <span id="1"><a href="http://fiji.eecs.harvard.edu/biblio/author/11">Greg Morrisett</a></span></span></span>, May, 2006
+[<a href="http://www.eecs.harvard.edu/~mdw/papers/flask-TR-13-06.pdf">Full text</a>]<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Ffiji.eecs.harvard.edu&amp;rft.title=Flask%3A+A+Language+for+Data-driven+Sensor+Network+Programs&amp;rft.date=2006&amp;rft.aulast=Mainland&amp;rft.aufirst=Geoffrey&amp;rft.au=Mainland%2C+Geoffrey&amp;rft.au=Welsh%2C+Matt&amp;rft.au=Morrisett%2C+Greg&amp;rft.pub=Harvard+University&amp;rft_id=http%3A%2F%2Fwww.eecs.harvard.edu%2F%7Emdw%2Fpapers%2Fflask-TR-13-06.pdf"></span></div>
+<div class="biblio-year">2005</div>
+<div class="biblio-entry">
+<span class="biblio-title"><a href="../../node/141">Firefly-Inspired Sensor Network Synchronicity with Realistic Radio Effects</a></span>, 
+<span class="biblio-authors"><span class="biblio_authors"><span id="1"><a href="http://fiji.eecs.harvard.edu/biblio/author/4">Geoff Werner-Allen</a></span>, <span id="1"><a href="http://fiji.eecs.harvard.edu/biblio/author/77">Geetika Tewari</a></span>, <span id="1"><a href="http://fiji.eecs.harvard.edu/biblio/author/78">Ankit Patel</a></span>, <span id="1"><a href="http://fiji.eecs.harvard.edu/biblio/author/5">Matt Welsh</a></span>, <span id="1"><a href="http://fiji.eecs.harvard.edu/biblio/author/79">Radhika Nagpal</a></span></span></span>, Third ACM Conference on Embedded Networked Sensor Systems (SenSys&#039;05), November, 2005
+[<a href="http://www.eecs.harvard.edu/~mdw/papers/firefly-sensys05.pdf">Full text</a>]<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Ffiji.eecs.harvard.edu&amp;rft.title=Firefly-Inspired+Sensor+Network+Synchronicity+with+Realistic+Radio+Effects&amp;rft.date=2005&amp;rft.aulast=Werner-Allen&amp;rft.aufirst=Geoff&amp;rft.au=Werner-Allen%2C+Geoff&amp;rft.au=Tewari%2C+Geetika&amp;rft.au=Patel%2C+Ankit&amp;rft.au=Welsh%2C+Matt&amp;rft.au=Nagpal%2C+Radhika&amp;rft_id=http%3A%2F%2Fwww.eecs.harvard.edu%2F%7Emdw%2Fpapers%2Ffirefly-sensys05.pdf"></span></div>
+<div class="biblio-entry">
+<span class="biblio-title"><a href="../../node/149">Building up to Macroprogramming: An Intermediate Language for Sensor Networks</a></span>, 
+<span class="biblio-authors"><span class="biblio_authors"><span id="1"><a href="http://fiji.eecs.harvard.edu/biblio/author/42">Ryan Newton</a></span>, <span id="1"><a href="http://fiji.eecs.harvard.edu/biblio/author/86">Arvind</a></span>, <span id="1"><a href="http://fiji.eecs.harvard.edu/biblio/author/5">Matt Welsh</a></span></span></span>, Fourth International Conference on Information Processing in Sensor Networks (IPSN&#039;05), April, 2005
+[<a href="http://www.eecs.harvard.edu/~mdw/papers/tm-ipsn05.pdf">Full text</a>]<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Ffiji.eecs.harvard.edu&amp;rft.title=Building+up+to+Macroprogramming%3A+An+Intermediate+Language+for+Sensor+Networks&amp;rft.date=2005&amp;rft.aulast=Newton&amp;rft.aufirst=Ryan&amp;rft.au=Newton%2C+Ryan&amp;rft.au=Arvind&amp;rft.au=Welsh%2C+Matt&amp;rft_id=http%3A%2F%2Fwww.eecs.harvard.edu%2F%7Emdw%2Fpapers%2Ftm-ipsn05.pdf"></span></div>
+<div class="biblio-year">2004</div>
+<div class="biblio-entry">
+<span class="biblio-title"><a href="../../node/157">Using Virtual Markets to Program Global Behavior in Sensor Networks</a></span>, 
+<span class="biblio-authors"><span class="biblio_authors"><span id="1"><a href="http://fiji.eecs.harvard.edu/biblio/author/13">Geoff Mainland</a></span>, <span id="1"><a href="http://fiji.eecs.harvard.edu/biblio/author/98">Laura Kang</a></span>, <span id="1"><a href="http://fiji.eecs.harvard.edu/biblio/author/99">Sebastien Lahaie</a></span>, <span id="1"><a href="http://fiji.eecs.harvard.edu/biblio/author/41">David Parkes</a></span>, <span id="1"><a href="http://fiji.eecs.harvard.edu/biblio/author/5">Matt Welsh</a></span></span></span>, 11th ACM SIGOPS European Workshop, September, 2004
+[<a href="http://www.eecs.harvard.edu/~mdw/papers/mbm-sigops04.pdf">Full text</a>]<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Ffiji.eecs.harvard.edu&amp;rft.title=Using+Virtual+Markets+to+Program+Global+Behavior+in+Sensor+Networks&amp;rft.date=2004&amp;rft.aulast=Mainland&amp;rft.aufirst=Geoff&amp;rft.au=Mainland%2C+Geoff&amp;rft.au=Kang%2C+Laura&amp;rft.au=Lahaie%2C+Sebastien&amp;rft.au=Parkes%2C+David&amp;rft.au=Welsh%2C+Matt&amp;rft_id=http%3A%2F%2Fwww.eecs.harvard.edu%2F%7Emdw%2Fpapers%2Fmbm-sigops04.pdf"></span></div>
+<div class="biblio-entry">
+<span class="biblio-title"><a href="../../node/159">Region Streams: Functional Macroprogramming for Sensor Networks</a></span>, 
+<span class="biblio-authors"><span class="biblio_authors"><span id="1"><a href="http://fiji.eecs.harvard.edu/biblio/author/42">Ryan Newton</a></span>, <span id="1"><a href="http://fiji.eecs.harvard.edu/biblio/author/5">Matt Welsh</a></span></span></span>, First International Workshop on Data Management for Sensor Networks (DMSN), August, 2004
+[<a href="http://www.eecs.harvard.edu/~mdw/papers/regiment-dmsn04.pdf">Full text</a>]<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Ffiji.eecs.harvard.edu&amp;rft.title=Region+Streams%3A+Functional+Macroprogramming+for+Sensor+Networks&amp;rft.date=2004&amp;rft.aulast=Newton&amp;rft.aufirst=Ryan&amp;rft.au=Newton%2C+Ryan&amp;rft.au=Welsh%2C+Matt&amp;rft_id=http%3A%2F%2Fwww.eecs.harvard.edu%2F%7Emdw%2Fpapers%2Fregiment-dmsn04.pdf"></span></div>
+<div class="biblio-entry">
+<span class="biblio-title"><a href="../../node/163">Programming Sensor Networks Using Abstract Regions</a></span>, 
+<span class="biblio-authors"><span class="biblio_authors"><span id="1"><a href="http://fiji.eecs.harvard.edu/biblio/author/5">Matt Welsh</a></span>, <span id="1"><a href="http://fiji.eecs.harvard.edu/biblio/author/13">Geoff Mainland</a></span></span></span>, First USENIX/ACM Symposium on Networked Systems Design and Implementation (NSDI &#039;04), March, 2004
+[<a href="http://www.eecs.harvard.edu/~mdw/papers/regions-nsdi04.pdf">Full text</a>]<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Ffiji.eecs.harvard.edu&amp;rft.title=Programming+Sensor+Networks+Using+Abstract+Regions&amp;rft.date=2004&amp;rft.aulast=Welsh&amp;rft.aufirst=Matt&amp;rft.au=Welsh%2C+Matt&amp;rft.au=Mainland%2C+Geoff&amp;rft_id=http%3A%2F%2Fwww.eecs.harvard.edu%2F%7Emdw%2Fpapers%2Fregions-nsdi04.pdf"></span></div>
+<div class="biblio-entry">
+<span class="biblio-title"><a href="../../node/164">A Whole-Network Approach to Sensor Network Programming</a></span>, 
+<span class="biblio-authors"><span class="biblio_authors"><span id="1"><a href="http://fiji.eecs.harvard.edu/biblio/author/5">Matt Welsh</a></span>, <span id="1"><a href="http://fiji.eecs.harvard.edu/biblio/author/106">Sam Madden</a></span>, <span id="1"><a href="http://fiji.eecs.harvard.edu/biblio/author/107">Nirupama Bulusu</a></span>, <span id="1"><a href="http://fiji.eecs.harvard.edu/biblio/author/108">Sanjay Jha</a></span></span></span>, Wireless Sensor Networks: A Systems Perspective, 2004
+[<a href="http://www.amazon.com/exec/obidos/tg/detail/-/1580538673/qid=1117048636/sr=8-1/ref=sr_8_xs_ap_i1_xgl14/103-8686274-9396647?v=glance&s=books&n=50784">Full text</a>]<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rfr_id=info%3Asid%2Ffiji.eecs.harvard.edu&amp;rft.genre=book&amp;rft.title=A+Whole-Network+Approach+to+Sensor+Network+Programming&amp;rft.btitle=A+Whole-Network+Approach+to+Sensor+Network+Programming&amp;rft.date=2004&amp;rft.aulast=Welsh&amp;rft.aufirst=Matt&amp;rft.au=Welsh%2C+Matt&amp;rft.au=Madden%2C+Sam&amp;rft.au=Bulusu%2C+Nirupama&amp;rft.au=Jha%2C+Sanjay&amp;rft.pub=Artech+House&amp;rft_id=http%3A%2F%2Fwww.amazon.com%2Fexec%2Fobidos%2Ftg%2Fdetail%2F-%2F1580538673%2Fqid%3D1117048636%2Fsr%3D8-1%2Fref%3Dsr_8_xs_ap_i1_xgl14%2F103-8686274-9396647%3Fv%3Dglance%26s%3Dbooks%26n%3D50784"></span></div>
+<div class="biblio-year">2003</div>
+<div class="biblio-entry">
+<span class="biblio-title"><a href="../../node/168">Exposing Resource Tradeoffs in Region-Based Communication Abstractions for Sensor Networks</a></span>, 
+<span class="biblio-authors"><span class="biblio_authors"><span id="1"><a href="http://fiji.eecs.harvard.edu/biblio/author/5">Matt Welsh</a></span></span></span>, Second ACM Workshop on Hot Topics in Networks (HotNets-II), November, 2003
+[<a href="http://www.eecs.harvard.edu/~mdw/papers/regions-hotnets03.pdf">Full text</a>]<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Ffiji.eecs.harvard.edu&amp;rft.title=Exposing+Resource+Tradeoffs+in+Region-Based+Communication+Abstractions+for+Sensor+Networks&amp;rft.date=2003&amp;rft.aulast=Welsh&amp;rft.aufirst=Matt&amp;rft.au=Welsh%2C+Matt&amp;rft_id=http%3A%2F%2Fwww.eecs.harvard.edu%2F%7Emdw%2Fpapers%2Fregions-hotnets03.pdf"></span></div>
+          </div>
+                    <div id="footer">Copyright (c) 2008 President and Fellows of Harvard College. All rights reserved.<div id="block-system-0" class="clear-block block block-system">
+
+
+  <div class="content"><a href="http://drupal.org"><img src="http://fiji.eecs.harvard.edu/misc/powered-blue-80x15.png" alt="Powered by Drupal, an open source content management system" title="Powered by Drupal, an open source content management system" width="80" height="15" /></a></div>
+</div>
+</div>
+      </div></div></div></div> <!-- /.left-corner, /.right-corner, /#squeeze, /#center -->
+
+              <div id="sidebar-right" class="sidebar">
+                    <div id="block-user-1" class="clear-block block block-user">
+
+  <h2>Navigation</h2>
+
+  <div class="content"><ul class="menu"><li class="expanded first active-trail"><a href="../filter/clear">Biblio</a><ul class="menu"><li class="leaf first"><a href="../authors">Authors</a></li>
+<li class="leaf last"><a href="../keywords">Keywords</a></li>
+</ul></li>
+<li class="leaf last"><a href="../../tracker">Recent posts</a></li>
+</ul></div>
+</div>
+<div id="block-blog-0" class="clear-block block block-blog">
+
+  <h2>Recent news</h2>
+
+  <div class="content"><div class="item-list"><ul><li class="first"><a href="../../node/191">Matt Welsh promoted to full professor</a></li>
+<li><a href="../../node/189">Geoff Werner-Challen completes Ph.D.</a></li>
+<li><a href="../../node/187">Welcome to Karthik Dantu</a></li>
+<li><a href="../../node/183">Bor-rong Chen and Konrad Lorincz complete PhDs</a></li>
+<li><a href="../../node/182">Mercury paper in SenSys 2009</a></li>
+<li><a href="../../node/181">Postdoc openings - RoboBees Project</a></li>
+<li><a href="../../node/180">WhiteFi paper wins Best Paper Award at SIGCOMM 2009</a></li>
+<li><a href="../../node/179">Harvard wins $10M NSF grant</a></li>
+<li><a href="../../node/178">SHIMMER Technology Exchange</a></li>
+<li class="last"><a href="../../node/177">IBM Faculty Award</a></li>
+</ul></div><div class="more-link"><a href="../../blog" title="Read the latest blog entries.">more</a></div></div>
+</div>
+<div id="block-biblio-0" class="clear-block block block-biblio">
+
+  <h2>New Publications</h2>
+
+  <div class="content"><div class="item-list"><ul><li ><a href="../../node/193">Programming Micro-Aerial Vehicle Swarms With Karma</a></li><li ><a href="../../node/188">IDEA: Integrated Distributed Energy Awareness for Wireless Sensor Networks</a></li><li ><a href="../../node/190">Dyson: An Architecture for Extensible Wireless LANs</a></li><li ><a href="../../node/192">Mapping the Urban Wireless Landscape with Argos</a></li></ul></div></div>
+</div>
+<div id="block-user-0" class="clear-block block block-user">
+
+
+  <div class="content"><form action="http://fiji.eecs.harvard.edu/biblio/keyword/3?destination=biblio%2Fkeyword%2F3"  accept-charset="UTF-8" method="post" id="user-login-form">
+<div><div class="form-item" id="edit-name-wrapper">
+ <label for="edit-name">Username: <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" maxlength="60" name="name" id="edit-name" size="15" value="" class="form-text required" />
+</div>
+<div class="form-item" id="edit-pass-wrapper">
+ <label for="edit-pass">Password: <span class="form-required" title="This field is required.">*</span></label>
+ <input type="password" name="pass" id="edit-pass"  maxlength="60"  size="15"  class="form-text required" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Log in"  class="form-submit" />
+<div class="item-list"><ul><li class="first last"><a href="../../user/password" title="Request new password via e-mail.">Request new password</a></li>
+</ul></div><input type="hidden" name="form_build_id" id="form-9d0a883be3eea84321ebe8940c5ee46b" value="form-9d0a883be3eea84321ebe8940c5ee46b"  />
+<input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"  />
+
+</div></form>
+</div>
+</div>
+        </div>
+      
+    </div> <!-- /container -->
+  </div>
+<!-- /layout -->
+
+    </body>
+</html>

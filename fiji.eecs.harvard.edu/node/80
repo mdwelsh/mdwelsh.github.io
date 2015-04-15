@@ -1,0 +1,155 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+  <head>
+    <title>TinyOS: An Operating System for Wireless Sensor Networks | Harvard Sensor Networks Lab</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="http://fiji.eecs.harvard.edu/sites/default/files/garland_favicon.png" type="image/x-icon" />
+    <link type="text/css" rel="stylesheet" media="all" href="http://fiji.eecs.harvard.edu/modules/node/node.css?M" />
+<link type="text/css" rel="stylesheet" media="all" href="http://fiji.eecs.harvard.edu/modules/system/defaults.css?M" />
+<link type="text/css" rel="stylesheet" media="all" href="http://fiji.eecs.harvard.edu/modules/system/system.css?M" />
+<link type="text/css" rel="stylesheet" media="all" href="http://fiji.eecs.harvard.edu/modules/system/system-menus.css?M" />
+<link type="text/css" rel="stylesheet" media="all" href="http://fiji.eecs.harvard.edu/modules/user/user.css?M" />
+<link type="text/css" rel="stylesheet" media="all" href="http://fiji.eecs.harvard.edu/sites/all/modules/extlink/extlink.css?M" />
+<link type="text/css" rel="stylesheet" media="all" href="http://fiji.eecs.harvard.edu/sites/all/modules/biblio/biblio.css?M" />
+<link type="text/css" rel="stylesheet" media="all" href="http://fiji.eecs.harvard.edu/sites/default/files/color/garland-8486e3b5/style.css?M" />
+<link type="text/css" rel="stylesheet" media="print" href="http://fiji.eecs.harvard.edu/themes/garland/print.css?M" />
+    <script type="text/javascript" src="http://fiji.eecs.harvard.edu/misc/jquery.js?M"></script>
+<script type="text/javascript" src="http://fiji.eecs.harvard.edu/misc/drupal.js?M"></script>
+<script type="text/javascript" src="http://fiji.eecs.harvard.edu/sites/all/modules/extlink/extlink.js?M"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "extlink": { "extTarget": 0, "extClass": "ext", "extSubdomains": 0, "mailtoClass": "mailto" } });
+//--><!]]>
+</script>
+    <!--[if lt IE 7]>
+      <link type="text/css" rel="stylesheet" media="all" href="/themes/garland/fix-ie.css" />    <![endif]-->
+  </head>
+  <body class="sidebars">
+
+<!-- Layout -->
+  <div id="header-region" class="clear-block"></div>
+
+    <div id="wrapper">
+    <div id="container" class="clear-block">
+
+      <div id="header">
+        <div id="logo-floater">
+        <h1><a href="../index.html" title="Harvard Sensor Networks Lab"><img src="http://fiji.eecs.harvard.edu/sites/default/files/garland_logo.png" alt="Harvard Sensor Networks Lab" id="logo" /><span>Harvard Sensor Networks Lab</span></a></h1>        </div>
+
+                  <ul class="links primary-links"><li class="menu-127 first"><a href="../index.html" title="Home">Home</a></li>
+<li class="menu-126"><a href="../People" title="People">People</a></li>
+<li class="menu-227"><a href="../biblio/filter/clear" title="Research papers">Publications</a></li>
+<li class="menu-236"><a href="../Talks" title="Presentation slides">Talks</a></li>
+<li class="menu-233"><a href="../Downloads" title="Software and hardware designs we have released.">Downloads</a></li>
+<li class="menu-196"><a href="../blog" title="Project news and blog postings">News</a></li>
+<li class="menu-197"><a href="../Sponsors" title="">Sponsors</a></li>
+<li class="menu-232 last"><a href="../Contact" title="">Contact</a></li>
+</ul>                                  
+      </div> <!-- /header -->
+
+              <div id="sidebar-left" class="sidebar">
+                    <div id="block-menu-primary-links" class="clear-block block block-menu">
+
+
+  <div class="content"><ul class="menu"><li class="leaf first"><a href="../index.html" title="Home">Home</a></li>
+<li class="leaf"><a href="../People" title="People">People</a></li>
+<li class="leaf"><a href="../biblio/filter/clear" title="Research papers">Publications</a></li>
+<li class="leaf"><a href="../Talks" title="Presentation slides">Talks</a></li>
+<li class="leaf"><a href="../Downloads" title="Software and hardware designs we have released.">Downloads</a></li>
+<li class="leaf"><a href="../blog" title="Project news and blog postings">News</a></li>
+<li class="leaf"><a href="../Sponsors" title="">Sponsors</a></li>
+<li class="leaf last"><a href="../Contact" title="">Contact</a></li>
+</ul></div>
+</div>
+        </div>
+      
+      <div id="center"><div id="squeeze"><div class="right-corner"><div class="left-corner">
+          <div class="breadcrumb"><a href="../index.html">Home</a> › <a href="../biblio/filter/clear">Biblio</a></div>                              <h2>TinyOS: An Operating System for Wireless Sensor Networks</h2>                                                  <div class="clear-block">
+            <div id="node-80" class="node">
+
+
+
+      <span class="submitted">Wed, 07/16/2008 - 11:06 — Matt Welsh</span>
+  
+  <div class="content clear-block">
+    <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rfr_id=info%3Asid%2Ffiji.eecs.harvard.edu&amp;rft.title=TinyOS%3A+An+Operating+System+for+Wireless+Sensor+Networks"></span><div class="biblio_type"><h3>Publication Type:</h3> </div>
+<div class="biblio_authors"><h3>Authors:</h3> </div>
+<div class="biblio_source"><h3>Source: </h3> </div>
+  </div>
+
+  <div class="clear-block">
+    <div class="meta">
+        </div>
+
+      </div>
+
+</div>
+          </div>
+                    <div id="footer">Copyright (c) 2008 President and Fellows of Harvard College. All rights reserved.<div id="block-system-0" class="clear-block block block-system">
+
+
+  <div class="content"><a href="http://drupal.org"><img src="http://fiji.eecs.harvard.edu/misc/powered-blue-80x15.png" alt="Powered by Drupal, an open source content management system" title="Powered by Drupal, an open source content management system" width="80" height="15" /></a></div>
+</div>
+</div>
+      </div></div></div></div> <!-- /.left-corner, /.right-corner, /#squeeze, /#center -->
+
+              <div id="sidebar-right" class="sidebar">
+                    <div id="block-user-1" class="clear-block block block-user">
+
+  <h2>Navigation</h2>
+
+  <div class="content"><ul class="menu"><li class="collapsed first"><a href="../biblio/filter/clear">Biblio</a></li>
+<li class="leaf last"><a href="../tracker">Recent posts</a></li>
+</ul></div>
+</div>
+<div id="block-blog-0" class="clear-block block block-blog">
+
+  <h2>Recent news</h2>
+
+  <div class="content"><div class="item-list"><ul><li class="first"><a href="191">Matt Welsh promoted to full professor</a></li>
+<li><a href="189">Geoff Werner-Challen completes Ph.D.</a></li>
+<li><a href="187">Welcome to Karthik Dantu</a></li>
+<li><a href="183">Bor-rong Chen and Konrad Lorincz complete PhDs</a></li>
+<li><a href="182">Mercury paper in SenSys 2009</a></li>
+<li><a href="181">Postdoc openings - RoboBees Project</a></li>
+<li><a href="180">WhiteFi paper wins Best Paper Award at SIGCOMM 2009</a></li>
+<li><a href="179">Harvard wins $10M NSF grant</a></li>
+<li><a href="178">SHIMMER Technology Exchange</a></li>
+<li class="last"><a href="177">IBM Faculty Award</a></li>
+</ul></div><div class="more-link"><a href="../blog" title="Read the latest blog entries.">more</a></div></div>
+</div>
+<div id="block-biblio-0" class="clear-block block block-biblio">
+
+  <h2>New Publications</h2>
+
+  <div class="content"><div class="item-list"><ul><li ><a href="193">Programming Micro-Aerial Vehicle Swarms With Karma</a></li><li ><a href="188">IDEA: Integrated Distributed Energy Awareness for Wireless Sensor Networks</a></li><li ><a href="190">Dyson: An Architecture for Extensible Wireless LANs</a></li><li ><a href="192">Mapping the Urban Wireless Landscape with Argos</a></li></ul></div></div>
+</div>
+<div id="block-user-0" class="clear-block block block-user">
+
+
+  <div class="content"><form action="http://fiji.eecs.harvard.edu/node/80?destination=node%2F80"  accept-charset="UTF-8" method="post" id="user-login-form">
+<div><div class="form-item" id="edit-name-wrapper">
+ <label for="edit-name">Username: <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" maxlength="60" name="name" id="edit-name" size="15" value="" class="form-text required" />
+</div>
+<div class="form-item" id="edit-pass-wrapper">
+ <label for="edit-pass">Password: <span class="form-required" title="This field is required.">*</span></label>
+ <input type="password" name="pass" id="edit-pass"  maxlength="60"  size="15"  class="form-text required" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Log in"  class="form-submit" />
+<div class="item-list"><ul><li class="first last"><a href="../user/password" title="Request new password via e-mail.">Request new password</a></li>
+</ul></div><input type="hidden" name="form_build_id" id="form-a5328f4fcb8999377342ff2b28f0e26f" value="form-a5328f4fcb8999377342ff2b28f0e26f"  />
+<input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"  />
+
+</div></form>
+</div>
+</div>
+        </div>
+      
+    </div> <!-- /container -->
+  </div>
+<!-- /layout -->
+
+    </body>
+</html>

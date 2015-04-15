@@ -1,0 +1,217 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+  <head>
+    <title>Macroprogramming | Harvard Sensor Networks Lab</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="http://fiji.eecs.harvard.edu/sites/default/files/garland_favicon.png" type="image/x-icon" />
+    <link type="text/css" rel="stylesheet" media="all" href="http://fiji.eecs.harvard.edu/modules/node/node.css?M" />
+<link type="text/css" rel="stylesheet" media="all" href="http://fiji.eecs.harvard.edu/modules/system/defaults.css?M" />
+<link type="text/css" rel="stylesheet" media="all" href="http://fiji.eecs.harvard.edu/modules/system/system.css?M" />
+<link type="text/css" rel="stylesheet" media="all" href="http://fiji.eecs.harvard.edu/modules/system/system-menus.css?M" />
+<link type="text/css" rel="stylesheet" media="all" href="http://fiji.eecs.harvard.edu/modules/user/user.css?M" />
+<link type="text/css" rel="stylesheet" media="all" href="http://fiji.eecs.harvard.edu/sites/all/modules/extlink/extlink.css?M" />
+<link type="text/css" rel="stylesheet" media="all" href="http://fiji.eecs.harvard.edu/sites/all/modules/biblio/biblio.css?M" />
+<link type="text/css" rel="stylesheet" media="all" href="http://fiji.eecs.harvard.edu/sites/all/modules/image/contrib/image_attach/image_attach.css?M" />
+<link type="text/css" rel="stylesheet" media="all" href="http://fiji.eecs.harvard.edu/sites/default/files/color/garland-8486e3b5/style.css?M" />
+<link type="text/css" rel="stylesheet" media="print" href="http://fiji.eecs.harvard.edu/themes/garland/print.css?M" />
+    <script type="text/javascript" src="http://fiji.eecs.harvard.edu/misc/jquery.js?M"></script>
+<script type="text/javascript" src="http://fiji.eecs.harvard.edu/misc/drupal.js?M"></script>
+<script type="text/javascript" src="http://fiji.eecs.harvard.edu/sites/all/modules/extlink/extlink.js?M"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "extlink": { "extTarget": 0, "extClass": "ext", "extSubdomains": 0, "mailtoClass": "mailto" } });
+//--><!]]>
+</script>
+    <!--[if lt IE 7]>
+      <link type="text/css" rel="stylesheet" media="all" href="/themes/garland/fix-ie.css" />    <![endif]-->
+  </head>
+  <body class="sidebars">
+
+<!-- Layout -->
+  <div id="header-region" class="clear-block"></div>
+
+    <div id="wrapper">
+    <div id="container" class="clear-block">
+
+      <div id="header">
+        <div id="logo-floater">
+        <h1><a href="index.html" title="Harvard Sensor Networks Lab"><img src="http://fiji.eecs.harvard.edu/sites/default/files/garland_logo.png" alt="Harvard Sensor Networks Lab" id="logo" /><span>Harvard Sensor Networks Lab</span></a></h1>        </div>
+
+                  <ul class="links primary-links"><li class="menu-127 first"><a href="index.html" title="Home">Home</a></li>
+<li class="menu-126"><a href="People" title="People">People</a></li>
+<li class="menu-227"><a href="biblio/filter/clear" title="Research papers">Publications</a></li>
+<li class="menu-236"><a href="Talks" title="Presentation slides">Talks</a></li>
+<li class="menu-233"><a href="Downloads" title="Software and hardware designs we have released.">Downloads</a></li>
+<li class="menu-196"><a href="blog" title="Project news and blog postings">News</a></li>
+<li class="menu-197"><a href="Sponsors" title="">Sponsors</a></li>
+<li class="menu-232 last"><a href="Contact" title="">Contact</a></li>
+</ul>                                  
+      </div> <!-- /header -->
+
+              <div id="sidebar-left" class="sidebar">
+                    <div id="block-menu-primary-links" class="clear-block block block-menu">
+
+
+  <div class="content"><ul class="menu"><li class="leaf first"><a href="index.html" title="Home">Home</a></li>
+<li class="leaf"><a href="People" title="People">People</a></li>
+<li class="leaf"><a href="biblio/filter/clear" title="Research papers">Publications</a></li>
+<li class="leaf"><a href="Talks" title="Presentation slides">Talks</a></li>
+<li class="leaf"><a href="Downloads" title="Software and hardware designs we have released.">Downloads</a></li>
+<li class="leaf"><a href="blog" title="Project news and blog postings">News</a></li>
+<li class="leaf"><a href="Sponsors" title="">Sponsors</a></li>
+<li class="leaf last"><a href="Contact" title="">Contact</a></li>
+</ul></div>
+</div>
+        </div>
+      
+      <div id="center"><div id="squeeze"><div class="right-corner"><div class="left-corner">
+          <div class="breadcrumb"><a href="index.html">Home</a></div>                              <h2>Macroprogramming</h2>                                                  <div class="clear-block">
+            <div id="node-17" class="node">
+
+
+
+  
+  <div class="content clear-block">
+    <div style="width: 200px" class="image-attach-body"><a href="node/6"><img src="http://fiji.eecs.harvard.edu/sites/default/files/images/rene5b.jpg" alt="Rene motes" title="Rene motes"  class="image image-preview " width="200" height="174" /></a></div>
+We are investigating high level languages for programming diverse, distributed networks of sensors. Our goal is to greatly simplify sensor network application design by providing high-level programming abstractions and primitives that automatically compile down to the complex, low-level operations implemented by each sensor node.
+
+<p>
+We are interested in exploring programming language support for sensor networks. Currently, sensor network applications are implemented as complex, low-level programs that specify the behavior of individual motes. Rather, we would like to provide a high-level, global programming model where the application can be specified in terms of system-wide behavior, which is then compiled down to the per-device program.
+
+</p><p>
+<h3><a href="biblio/keyword/3">Click here for publications</a></h3>
+
+</p><p>
+<h3>Flask</h3>
+
+</p><p><a href="http://www.eecs.harvard.edu/~mainland/software/">Flask</a> is a domain
+specific language embedded in Haskell that seeks to address the challenge of programming sensor networks by
+making the type of high-level, reusable abstractions commonly developed in the
+functional programming community available in the sensor network domain. Flask consists of four major components:
+<ol>
+<li> A simple <em>intermediate language</em> based on a distributed
+dataflow graph (DDFG) model;
+</li><li> A rich <em>metaprogramming toolkit</em> allowing both applications
+and compilers to be developed using this DDFG intermediate form;
+</li><li> A <em>compiler</em> that translates dataflow programs to efficient
+node-level binaries; and
+</li><li> An <em>extensible runtime system</em> that provides commonly-used
+services (such as routing, sampling, and data storage), and that
+can be readily extended with pre-existing runtime code.
+</li></ol>
+
+</p><p>
+<h3>Regiment</h3>
+
+</p><p>
+<a href="http://www.regiment.us">Regiment</a> is a spatial macroprogramming language that abstracts the sensor network state as time-varying streams, which can be groupd into regions. Regions provide a means of expression spatial and logical relationships between sensor nodes, transparent data sharing between nodes, and efficient reduction operations within regions. 
+
+</p><p>
+<h3>Abstract Regions</h3>
+
+</p><p>
+<a href="http://www.eecs.harvard.edu/~mdw/papers/regions-nsdi04.pdf">Abstract Regions</a> is a spatial programming model that exposes the tradeoff between resource usage and the accuracy of collective operations, allowing applications to tune energy and bandwidth consumption to meet accuracy targets.
+
+</p><p>
+<h3>SORA: Self-Organizing Resource Allocation</h3>
+
+</p><p>
+We are also investigating the use of market-based techniques for distributed resource allocation in sensor networks. Such an approach models the network as a set of agents that operate to maximize their profit for performing simple, local actions in response to globally-advertised price information. Sensor nodes run a very simple cost-evaluation function, and global behavior is induced throughout the network by advertising price information that drives nodes to react. For more details see our <a href="node/144">NSDI 2005 paper on SORA</a>.
+
+</p><p>
+<h3>Biologically-Inspired Synchronization and Desynchronization in Wireless Sensor Networks</h3>
+
+</p><p>
+Our group is studying approaches to <a href="http://www.eecs.harvard.edu/~rad/ssr/research.html#s1">time synchronization and desynchronization in sensor networks</a> that are inspired by biological mechanisms found, for example, in certain species of fireflies that spontaneously synchronize their flashing activity.
+Our group is interested in the design of simple, self-organizing algorithms for sensor networks, that can easily adapt and repair to errors and changes in topology. We have shown how firefly-inspired synchronization can be adapted for applications on real wireless sensor networks, with message delays, clock skew, and frequent topology changes. We have also shown one can adapt these principles to solve new problems, such as desynchronization, and we have used this to design a self-repairing TDMA scheme for collision-free wireless transmissions.
+
+</p><p>
+<h2>People</h2>
+
+</p><p>
+<ul>
+<li> <a href="http://www.eecs.harvard.edu/~mainland">Geoffrey Mainland</a>
+</li><li> <a href="http://people.csail.mit.edu/newton/">Ryan Newton</a> (MIT)
+</li><li> <a href="http://www.eecs.harvard.edu/~mdw">Prof. Matt Welsh</a>
+</li><li> <a href="http://www.eecs.harvard.edu/~greg">Prof. Greg Morrisett</a>
+</li><li> <a href="http://www.eecs.harvard.edu/~parkes">Prof. David Parkes</a>
+</li><li> <a href="http://www.eecs.harvard.edu/~rad">Prof. Radhika Nagpal</a>
+</li></ul>
+</p>  </div>
+
+  <div class="clear-block">
+    <div class="meta">
+        </div>
+
+      </div>
+
+</div>
+          </div>
+                    <div id="footer">Copyright (c) 2008 President and Fellows of Harvard College. All rights reserved.<div id="block-system-0" class="clear-block block block-system">
+
+
+  <div class="content"><a href="http://drupal.org"><img src="http://fiji.eecs.harvard.edu/misc/powered-blue-80x15.png" alt="Powered by Drupal, an open source content management system" title="Powered by Drupal, an open source content management system" width="80" height="15" /></a></div>
+</div>
+</div>
+      </div></div></div></div> <!-- /.left-corner, /.right-corner, /#squeeze, /#center -->
+
+              <div id="sidebar-right" class="sidebar">
+                    <div id="block-user-1" class="clear-block block block-user">
+
+  <h2>Navigation</h2>
+
+  <div class="content"><ul class="menu"><li class="collapsed first"><a href="biblio/filter/clear">Biblio</a></li>
+<li class="leaf last"><a href="tracker">Recent posts</a></li>
+</ul></div>
+</div>
+<div id="block-blog-0" class="clear-block block block-blog">
+
+  <h2>Recent news</h2>
+
+  <div class="content"><div class="item-list"><ul><li class="first"><a href="node/191">Matt Welsh promoted to full professor</a></li>
+<li><a href="node/189">Geoff Werner-Challen completes Ph.D.</a></li>
+<li><a href="node/187">Welcome to Karthik Dantu</a></li>
+<li><a href="node/183">Bor-rong Chen and Konrad Lorincz complete PhDs</a></li>
+<li><a href="node/182">Mercury paper in SenSys 2009</a></li>
+<li><a href="node/181">Postdoc openings - RoboBees Project</a></li>
+<li><a href="node/180">WhiteFi paper wins Best Paper Award at SIGCOMM 2009</a></li>
+<li><a href="node/179">Harvard wins $10M NSF grant</a></li>
+<li><a href="node/178">SHIMMER Technology Exchange</a></li>
+<li class="last"><a href="node/177">IBM Faculty Award</a></li>
+</ul></div><div class="more-link"><a href="blog" title="Read the latest blog entries.">more</a></div></div>
+</div>
+<div id="block-biblio-0" class="clear-block block block-biblio">
+
+  <h2>New Publications</h2>
+
+  <div class="content"><div class="item-list"><ul><li ><a href="node/193">Programming Micro-Aerial Vehicle Swarms With Karma</a></li><li ><a href="node/188">IDEA: Integrated Distributed Energy Awareness for Wireless Sensor Networks</a></li><li ><a href="node/190">Dyson: An Architecture for Extensible Wireless LANs</a></li><li ><a href="node/192">Mapping the Urban Wireless Landscape with Argos</a></li></ul></div></div>
+</div>
+<div id="block-user-0" class="clear-block block block-user">
+
+
+  <div class="content"><form action="http://fiji.eecs.harvard.edu/Macroprogramming?destination=node%2F17"  accept-charset="UTF-8" method="post" id="user-login-form">
+<div><div class="form-item" id="edit-name-wrapper">
+ <label for="edit-name">Username: <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" maxlength="60" name="name" id="edit-name" size="15" value="" class="form-text required" />
+</div>
+<div class="form-item" id="edit-pass-wrapper">
+ <label for="edit-pass">Password: <span class="form-required" title="This field is required.">*</span></label>
+ <input type="password" name="pass" id="edit-pass"  maxlength="60"  size="15"  class="form-text required" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Log in"  class="form-submit" />
+<div class="item-list"><ul><li class="first last"><a href="user/password" title="Request new password via e-mail.">Request new password</a></li>
+</ul></div><input type="hidden" name="form_build_id" id="form-8ebcebaea84651dccca8101b63b18d9c" value="form-8ebcebaea84651dccca8101b63b18d9c"  />
+<input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"  />
+
+</div></form>
+</div>
+</div>
+        </div>
+      
+    </div> <!-- /container -->
+  </div>
+<!-- /layout -->
+
+    </body>
+</html>

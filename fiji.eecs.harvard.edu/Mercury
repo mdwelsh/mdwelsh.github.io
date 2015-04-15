@@ -1,0 +1,295 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+  <head>
+    <title>Mercury: A Wearable Sensor Network Platform for High-Fidelity Motion Analysis | Harvard Sensor Networks Lab</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="http://fiji.eecs.harvard.edu/sites/default/files/garland_favicon.png" type="image/x-icon" />
+    <link type="text/css" rel="stylesheet" media="all" href="http://fiji.eecs.harvard.edu/modules/node/node.css?M" />
+<link type="text/css" rel="stylesheet" media="all" href="http://fiji.eecs.harvard.edu/modules/system/defaults.css?M" />
+<link type="text/css" rel="stylesheet" media="all" href="http://fiji.eecs.harvard.edu/modules/system/system.css?M" />
+<link type="text/css" rel="stylesheet" media="all" href="http://fiji.eecs.harvard.edu/modules/system/system-menus.css?M" />
+<link type="text/css" rel="stylesheet" media="all" href="http://fiji.eecs.harvard.edu/modules/user/user.css?M" />
+<link type="text/css" rel="stylesheet" media="all" href="http://fiji.eecs.harvard.edu/sites/all/modules/extlink/extlink.css?M" />
+<link type="text/css" rel="stylesheet" media="all" href="http://fiji.eecs.harvard.edu/sites/all/modules/biblio/biblio.css?M" />
+<link type="text/css" rel="stylesheet" media="all" href="http://fiji.eecs.harvard.edu/sites/default/files/color/garland-8486e3b5/style.css?M" />
+<link type="text/css" rel="stylesheet" media="print" href="http://fiji.eecs.harvard.edu/themes/garland/print.css?M" />
+    <script type="text/javascript" src="http://fiji.eecs.harvard.edu/misc/jquery.js?M"></script>
+<script type="text/javascript" src="http://fiji.eecs.harvard.edu/misc/drupal.js?M"></script>
+<script type="text/javascript" src="http://fiji.eecs.harvard.edu/sites/all/modules/extlink/extlink.js?M"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "extlink": { "extTarget": 0, "extClass": "ext", "extSubdomains": 0, "mailtoClass": "mailto" } });
+//--><!]]>
+</script>
+    <!--[if lt IE 7]>
+      <link type="text/css" rel="stylesheet" media="all" href="/themes/garland/fix-ie.css" />    <![endif]-->
+  </head>
+  <body class="sidebars">
+
+<!-- Layout -->
+  <div id="header-region" class="clear-block"></div>
+
+    <div id="wrapper">
+    <div id="container" class="clear-block">
+
+      <div id="header">
+        <div id="logo-floater">
+        <h1><a href="index.html" title="Harvard Sensor Networks Lab"><img src="http://fiji.eecs.harvard.edu/sites/default/files/garland_logo.png" alt="Harvard Sensor Networks Lab" id="logo" /><span>Harvard Sensor Networks Lab</span></a></h1>        </div>
+
+                  <ul class="links primary-links"><li class="menu-127 first"><a href="index.html" title="Home">Home</a></li>
+<li class="menu-126"><a href="People" title="People">People</a></li>
+<li class="menu-227"><a href="biblio/filter/clear" title="Research papers">Publications</a></li>
+<li class="menu-236"><a href="Talks" title="Presentation slides">Talks</a></li>
+<li class="menu-233"><a href="Downloads" title="Software and hardware designs we have released.">Downloads</a></li>
+<li class="menu-196"><a href="blog" title="Project news and blog postings">News</a></li>
+<li class="menu-197"><a href="Sponsors" title="">Sponsors</a></li>
+<li class="menu-232 last"><a href="Contact" title="">Contact</a></li>
+</ul>                                  
+      </div> <!-- /header -->
+
+              <div id="sidebar-left" class="sidebar">
+                    <div id="block-menu-primary-links" class="clear-block block block-menu">
+
+
+  <div class="content"><ul class="menu"><li class="leaf first"><a href="index.html" title="Home">Home</a></li>
+<li class="leaf"><a href="People" title="People">People</a></li>
+<li class="leaf"><a href="biblio/filter/clear" title="Research papers">Publications</a></li>
+<li class="leaf"><a href="Talks" title="Presentation slides">Talks</a></li>
+<li class="leaf"><a href="Downloads" title="Software and hardware designs we have released.">Downloads</a></li>
+<li class="leaf"><a href="blog" title="Project news and blog postings">News</a></li>
+<li class="leaf"><a href="Sponsors" title="">Sponsors</a></li>
+<li class="leaf last"><a href="Contact" title="">Contact</a></li>
+</ul></div>
+</div>
+        </div>
+      
+      <div id="center"><div id="squeeze"><div class="right-corner"><div class="left-corner">
+          <div class="breadcrumb"><a href="index.html">Home</a></div>                              <h2>Mercury: A Wearable Sensor Network Platform for High-Fidelity Motion Analysis</h2>                                                  <div class="clear-block">
+            <div id="node-104" class="node">
+
+
+
+  
+  <div class="content clear-block">
+    <p>
+<img src="http://fiji.eecs.harvard.edu/sites/default/files/images/mercury-setup.png" height=300 align=right />
+Mercury is a sensor network platform designed to supports
+applications that are data-intensive and can gracefully adapt to
+fluctuations in resource availability and load. Key challenges
+addressed by Mercury include long sensor node lifetime, autonomous operation, and the need for the system to automatically tune its behavior in response to fluctuations in radio bandwidth and energy availability. 
+
+</p><p>
+We are currently working with the <A HREF="http://spauldingrehab.org/">Motion
+Analysis Laboratory</a> at Spaulding Hospital to develop a prototype
+of this platform for long-term motion analysis studies in a home
+setting. A Mercury network consists of a number of wearable sensors
+and a base station installed in the patient's home. Each sensor
+samples multiple channels of accelerometer, gyroscope, and/or
+physiological data and stores raw signals to local flash. Sensors
+also perform <I>feature extraction</i> on the raw signals, which may
+involve expensive on-board computation. The body sensor network
+performs <I>opportunistic data transfer</i> to the base station,
+based on the quality of the radio link to each sensor and the
+remaining battery capacity. Each node dynamically tunes the number of
+data transfers and degree of computation applied to the sampled
+signal to meet a target lifetime (say, 12 or 24 hours). Nodes also
+save energy by dropping down to a low-power state when the sensor is
+not moving.
+
+</p><p>
+<h3><a href="biblio/keyword/24">Click here for papers related to Mercury</a></h3>
+
+</p><P>
+An earlier version of Mercury (v1.0) is being used in several
+studies by the Motion Analysis Lab at Spaulding Hospital. 
+</p>
+<UL>
+	<LI><B>Parkinson's disease</b><BR />Clinical evaluations of
+	patients in various settings, including tuning of deep brain
+	stimulation (DBS) parameters. Patients are brought in to the lab for
+	a 4-hour session. Every 30 min, patient is asked to perform various
+	movements and activities, for about 10 min. Data collection is
+	performed manually by clinician in the lab using Mercury v1.0. There
+	are 9 nodes on the body (2 on each arm and leg, one on the back),
+	recording triaxial accelerometer and gyroscope data at 100 Hz. (As
+	of 7/24/08: 4 patients, 7 sessions each, 4 hours per session.) 
+</li></ul>
+<UL>
+	<LI><B>Epilepsy</b><BR />This is just starting up. The goal is to
+	detect seizures, which are often subtle and difficult to detect. The
+	number of sensors varies because it depends on type of seizures the
+	patient has. In a typical setup there are 4 sensors on arms and only
+	2 on legs. Accel, gyro, and EMG data is collected. EMG is be
+	localized (say, one arm) and sampled at 500 Hz. (As of 7/24/08: 2
+	patients, measured for 1 week each in hospital.) 
+</li></ul>
+
+<p>
+<h2>Hardware platform details</h2>
+
+</p><p>
+We are using a range of wireless sensors in this project. 
+Our current hardware platform is the <b>SHIMMER</b> wearable mote, developed by the
+Digital Health Group at Intel. SHIMMER incorporates a TI MSP430
+processor, CC2420 IEEE 802.15.4 radio, triaxial accelerometer, and
+rechargeable Li-polymer battery.
+SHIMMER includes a MicroSD slot supporting up to 2 GBytes of Flash
+memory. This allows SHIMMER to store significant amounts of data 
+(2GB can store more than 80 days of continuous triaxial accelerometer 
+data sampled at 50Hz). SHIMMER can also be configured with an optional 
+Bluetooth radio.
+
+</p><p>
+SHIMMER devices are now available commercially from <a href="http://www.shimmer-research.com">www.shimmer-research.com</a>.
+
+</p><p>
+<center>
+<table border=0 hspace=0 cellspacing=10 width="80%">
+<tr>
+<td> 
+<a href="http://www.eecs.harvard.edu/~mdw/proj/codeblue/pics/shimmer-crop-annotate-small.jpg"><img src="http://www.eecs.harvard.edu/~mdw/proj/codeblue/pics/shimmer-crop-annotate-tiny.jpg" /></a>
+</td>
+<td> 
+<a href="http://www.eecs.harvard.edu/~mdw/proj/codeblue/pics/shimmer-progboard-annotate-small.jpg"><img src="http://www.eecs.harvard.edu/~mdw/proj/codeblue/pics/shimmer-progboard-annotate-tiny.jpg" /></a>
+</td>
+<td>
+<a href="http://www.eecs.harvard.edu/~mdw/proj/codeblue/pics/shimmer-arm.jpg"><img src="http://www.eecs.harvard.edu/~mdw/proj/codeblue/pics/shimmer-arm-small.jpg" /></a>
+</td>
+</tr>
+<tr>
+<td><em>The Intel SHIMMER mote, including a triaxial accelerometer.</em></td>
+<td><em>The SHIMMER mote connected to its programming board.</em></td>
+<td><em>SHIMMER sensors being worn on a patient's arm.</em></td>
+</tr>
+</table>
+</center>
+
+</p><p>
+Our previous hardware platform is the <b>Pluto</b> mote, designed here at Harvard,
+which is a scaled-down
+version of the Telos designed to be small, lightweight, and wearable.
+The Pluto incorporates a tiny, rechargeable Li-ion battery, 
+small USB connector, and 3-axis accelerometer.
+
+</p><p>
+<center>
+<table border=0 hspace=0 cellspacing=10 width="80%">
+<tr>
+<td> 
+<a href="http://www.eecs.harvard.edu/~mdw/proj/codeblue/pics/pluto1-annotate.jpg"><img src="http://www.eecs.harvard.edu/~mdw/proj/codeblue/pics/pluto1-annotate-small.jpg" /></a>
+</td>
+<td> 
+<a href="http://www.eecs.harvard.edu/~mdw/proj/codeblue/pics/pluto3.jpg"><img src="http://www.eecs.harvard.edu/~mdw/proj/codeblue/pics/pluto3-small.jpg" /></a>
+</td>
+<td>
+<a href="http://www.eecs.harvard.edu/~mdw/proj/codeblue/pics/pluto4.jpg"><img src="http://www.eecs.harvard.edu/~mdw/proj/codeblue/pics/pluto4-small.jpg" /></a>
+</td>
+</tr>
+<tr>
+<td><em>The Harvard "Pluto" mote, designed to be small and
+wearable.</em></td>
+
+<td><em>Pluto mote with case and wriststrap.</em></td>
+<td><em>Pluto mote in case.</em></td>
+</tr>
+</table>
+</center>
+
+</p><P>
+<h2>People</h2> 
+<UL>
+<LI><A HREF="http://www.eecs.harvard.edu/~konrad">Konrad Lorincz</a> 
+</li><li><a href="http://www.eecs.harvard.edu/~brchen">Bor-rong Chen</a>
+</li><li><a href="http://www.eecs.harvard.edu/~werner">Geoff Challen</a>
+</li><li><a href="http://www.eecs.harvard.edu/~roy">Atanu Roy Chowdhury</a>
+</li><LI><A HREF="http://www.eecs.harvard.edu/%7Emdw">Prof. Matt Welsh</a>
+</li><LI><A HREF="http://spauldingrehab.org/body.cfm?id=61">Dr. Paolo Bonato</a> - Spaulding Rehabilitation Hospital
+</li><LI>Shyamal Patel - Spaulding Rehabilitation Hospital
+</li></ul>
+
+
+<H2>Software release</h2>
+</p><P>You can download Mercury from the following link:</p>
+<UL>
+	<LI><P STYLE="margin-bottom: 0in"><A HREF="http://www.eecs.harvard.edu/%7Emdw/proj/mercury/Mercury-1.01_xubuntu-9.04.zip">Mercury VMware image (1.8 GB)</a><BR />(<I>includes, Pixie, TinyOS 2.x, and all other dependencies - unzip and read the instructions.</i>)</p>
+
+</li></ul>
+<P>This page will be updated soon with more details! 
+</p>  </div>
+
+  <div class="clear-block">
+    <div class="meta">
+        </div>
+
+      </div>
+
+</div>
+          </div>
+                    <div id="footer">Copyright (c) 2008 President and Fellows of Harvard College. All rights reserved.<div id="block-system-0" class="clear-block block block-system">
+
+
+  <div class="content"><a href="http://drupal.org"><img src="http://fiji.eecs.harvard.edu/misc/powered-blue-80x15.png" alt="Powered by Drupal, an open source content management system" title="Powered by Drupal, an open source content management system" width="80" height="15" /></a></div>
+</div>
+</div>
+      </div></div></div></div> <!-- /.left-corner, /.right-corner, /#squeeze, /#center -->
+
+              <div id="sidebar-right" class="sidebar">
+                    <div id="block-user-1" class="clear-block block block-user">
+
+  <h2>Navigation</h2>
+
+  <div class="content"><ul class="menu"><li class="collapsed first"><a href="biblio/filter/clear">Biblio</a></li>
+<li class="leaf last"><a href="tracker">Recent posts</a></li>
+</ul></div>
+</div>
+<div id="block-blog-0" class="clear-block block block-blog">
+
+  <h2>Recent news</h2>
+
+  <div class="content"><div class="item-list"><ul><li class="first"><a href="node/191">Matt Welsh promoted to full professor</a></li>
+<li><a href="node/189">Geoff Werner-Challen completes Ph.D.</a></li>
+<li><a href="node/187">Welcome to Karthik Dantu</a></li>
+<li><a href="node/183">Bor-rong Chen and Konrad Lorincz complete PhDs</a></li>
+<li><a href="node/182">Mercury paper in SenSys 2009</a></li>
+<li><a href="node/181">Postdoc openings - RoboBees Project</a></li>
+<li><a href="node/180">WhiteFi paper wins Best Paper Award at SIGCOMM 2009</a></li>
+<li><a href="node/179">Harvard wins $10M NSF grant</a></li>
+<li><a href="node/178">SHIMMER Technology Exchange</a></li>
+<li class="last"><a href="node/177">IBM Faculty Award</a></li>
+</ul></div><div class="more-link"><a href="blog" title="Read the latest blog entries.">more</a></div></div>
+</div>
+<div id="block-biblio-0" class="clear-block block block-biblio">
+
+  <h2>New Publications</h2>
+
+  <div class="content"><div class="item-list"><ul><li ><a href="node/193">Programming Micro-Aerial Vehicle Swarms With Karma</a></li><li ><a href="node/188">IDEA: Integrated Distributed Energy Awareness for Wireless Sensor Networks</a></li><li ><a href="node/190">Dyson: An Architecture for Extensible Wireless LANs</a></li><li ><a href="node/192">Mapping the Urban Wireless Landscape with Argos</a></li></ul></div></div>
+</div>
+<div id="block-user-0" class="clear-block block block-user">
+
+
+  <div class="content"><form action="http://fiji.eecs.harvard.edu/Mercury?destination=node%2F104"  accept-charset="UTF-8" method="post" id="user-login-form">
+<div><div class="form-item" id="edit-name-wrapper">
+ <label for="edit-name">Username: <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" maxlength="60" name="name" id="edit-name" size="15" value="" class="form-text required" />
+</div>
+<div class="form-item" id="edit-pass-wrapper">
+ <label for="edit-pass">Password: <span class="form-required" title="This field is required.">*</span></label>
+ <input type="password" name="pass" id="edit-pass"  maxlength="60"  size="15"  class="form-text required" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Log in"  class="form-submit" />
+<div class="item-list"><ul><li class="first last"><a href="user/password" title="Request new password via e-mail.">Request new password</a></li>
+</ul></div><input type="hidden" name="form_build_id" id="form-4bf7dac8bc90b06b341e6d60723ac611" value="form-4bf7dac8bc90b06b341e6d60723ac611"  />
+<input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"  />
+
+</div></form>
+</div>
+</div>
+        </div>
+      
+    </div> <!-- /container -->
+  </div>
+<!-- /layout -->
+
+    </body>
+</html>

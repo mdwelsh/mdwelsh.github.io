@@ -6,9 +6,8 @@ highlighter:      rouge
 permalink:        pretty
 
 # Setup
-title:            mdw
-tagline:          'mdw on github'
-description:      'Trying to make a new page'
+title:            mdw.la
+description:      'Matt Welsh'
 url:              http://mdwelsh.github.io
 baseurl:          /
 
@@ -17,9 +16,3 @@ author:
   url:            http://www.mdw.la
 
 paginate:         5
-
-# Custom vars
-version:          2.1.0
-
-github:
-  repo:           https://github.com/mdwelsh/mdwelsh.github.io

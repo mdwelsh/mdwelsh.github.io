@@ -2,11 +2,11 @@
 permalink:           pretty
 
 # Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
+title:               Matt Welsh
+tagline:             mdw on github
+url:                 http://mdwelsh.github.io
 paginate:            1
-baseurl:             ""
+baseurl:             "http://mdwelsh.github.io/"
 
 # Assets
 #
@@ -17,9 +17,9 @@ sass:
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Matt Welsh
+  url:               http://www.mdw.la/
+  email:             mdw@mdw.la
 
 # Custom vars
 version:             2.0.0

@@ -15,6 +15,6 @@ I did my PhD in Computer Science at UC Berkeley (2002) and my bachelor's in Comp
 at Cornell University (1996). My research interests span a broad range of topics in the space
 of operating systems, networks, distributed systems, embedded systems, and programming languages.
 
-* [Publications and Talks](pubs.md)
+* [Publications and Talks](pubs)
 * [Volatile and Decentralized](http://matt-welsh.blogspot.com/) (my blog)
-* [My curriculum vitae](cv.md)
+* [My curriculum vitae](cv)

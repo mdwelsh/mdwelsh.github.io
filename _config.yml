@@ -1,32 +1,26 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
 # Permalinks
-permalink:           pretty
+permalink:        pretty
+relative_permalinks: true
 
 # Setup
-title:               Matt Welsh
-tagline:             mdw on github
-url:                 http://mdwelsh.github.io
-paginate:            1
-baseurl:             "http://mdwelsh.github.io/"
+title:            mdw
+tagline:          'mdw on github'
+description:      'Trying to make a new page'
+url:              http://mdwelsh.github.io
+baseurl:          /
 
-# Assets
-#
-# We specify the directory for Jekyll so we can use @imports.
-sass:
-  sass_dir:          _sass
-  style:            :compressed
-
-# About/contact
 author:
-  name:              Matt Welsh
-  url:               http://www.mdw.la/
-  email:             mdw@mdw.la
+  name:           'Matt Welsh'
+  url:            http://www.mdw.la
+
+paginate:         5
 
 # Custom vars
-version:             2.0.0
-github:
-  repo:              https://github.com/poole/poole
+version:          2.1.0
 
-# Gems
-gems:
-  - jekyll-paginate
-  - jekyll-gist
+github:
+  repo:           https://github.com/mdwelsh/mdwelsh.github.io

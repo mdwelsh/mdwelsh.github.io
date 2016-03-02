@@ -79,7 +79,6 @@ html {
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  /* font-family: "Abril Fatface", serif; */
   font-family: "Varela Round";
   font-size: 3.25rem;
 }
@@ -88,7 +87,7 @@ html {
   color: #fff;
   margin-top: 0;
   font-family: "Varela Round";
-  font-size: 2rem;
+  font-size: 0.7rem;
 }
 
 .sidebar-photo {

@@ -84,6 +84,13 @@ html {
   font-size: 3.25rem;
 }
 
+.sidebar-meta {
+  color: #fff;
+  margin-top: 0;
+  font-family: "Varela Round";
+  font-size: 2rem;
+}
+
 .sidebar-photo {
   display: block;
   width: 200px;

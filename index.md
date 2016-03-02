@@ -25,5 +25,8 @@ networks, distributed systems, embedded systems, and programming languages.
 * [Volatile and Decentralized](http://matt-welsh.blogspot.com/) (my blog)
 * [My curriculum vitae](cv)
 
-Check out [this blog post](http://matt-welsh.blogspot.com/2011/05/what-im-working-on-at-google-making.html) for some background on the Chrome Data Saver proxy, and [this paper from NSDI 2015](flywheel-nsdi2015.pdf)
+Check out [this blog
+post](http://matt-welsh.blogspot.com/2011/05/what-im-working-on-at-google-making.html)
+for some background on the Chrome Data Saver proxy, and
+[this paper from NSDI 2015](papers/flywheel-nsdi2015.pdf)
 which describes the service in detail.

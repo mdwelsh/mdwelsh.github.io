@@ -1,0 +1,35 @@
+Resuscitation monitoring with a wireless sensor network
+
+Matt Welsh, Ph.D., Harvard University 
+Dan Myung, AB, 10Blade, Inc.
+Mark Gaynor, Ph.D., 10Blade, Inc.
+Steve Moulton, M.D., 10Blade, Inc.
+
+Pulse oximetry is poorly integrated with pre-hospital and hospital-based
+patient care records. It is therefore difficult to study how duration
+and depth of hypoxemia affect patient outcome. Neither can one measure
+the impact on outcome of various maneuvers or therapeutic interventions
+that are meant to reverse the effects of hypoxemia.
+
+Recent advances in embedded computing systems have led to the emergence of
+wireless sensor networks, consisting of small, battery-powered "motes"
+with limited computation and radio communication capabilities. Sensor
+networks permit data gathering and computation to be deeply embedded in
+the physical environment. This technology has the potential to impact
+the delivery and study of resuscitative care by allowing vital signs to
+be automatically collected and fully integrated into a mobile database
+system. 
+
+We are developing a pulse oximetry sensor system, called "Vital Dust,"
+that is integrated with an existing, mobile, pre-hospital database called
+iRevive. The motes collect heart rate (HR) and oxygen saturation (SpO2)
+data and relay it over a short-range (100m) wireless network to a portable
+computer or PDA, where it is displayed and integrated into the developing
+pre-hospital patient care record. Continuous sampling of HR and SpO2
+allows these parameters to be carefully monitored and any adverse change 
+in patient status to be signaled to a nearby EMT or paramedic. The
+integrated patient care record can be stored on the mote and relayed
+to a centralized database. This duplicative form of data management
+enables the pre-hospital record to travel with patient, while providing 
+a centralized, real-time picture of the evolving field environment.
+

@@ -1,6 +1,5 @@
 ---
 layout: page
-title: Welcome
 ---
 
 I am a technical lead manager at Google, where I work in the areas of mobile computing,

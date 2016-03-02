@@ -28,5 +28,5 @@ networks, distributed systems, embedded systems, and programming languages.
 Check out [this blog
 post](http://matt-welsh.blogspot.com/2011/05/what-im-working-on-at-google-making.html)
 for some background on the Chrome Data Saver proxy, and
-[this paper from NSDI 2015](papers/flywheel-nsdi2015.pdf)
+[this paper from NSDI 2015]({{site.url}}/papers/flywheel-nsdi2015.pdf)
 which describes the service in detail.

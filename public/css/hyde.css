@@ -79,8 +79,16 @@ html {
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  font-family: "Abril Fatface", serif;
+  /* font-family: "Abril Fatface", serif; */
+  font-family: "Varela Round";
   font-size: 3.25rem;
+}
+
+.sidebar-photo {
+  display: block;
+  width: 400px;
+  height: 400px;
+  background-image: url("http://mdwelsh.github.io/mdw.jpg");
 }
 
 /* Sidebar nav */

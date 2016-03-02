@@ -86,8 +86,9 @@ html {
 
 .sidebar-photo {
   display: block;
-  width: 400px;
-  height: 400px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
   background-image: url("http://mdwelsh.github.io/mdw.jpg");
 }
 

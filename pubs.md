@@ -1,19 +1,21 @@
 ---
 layout: page
-title: Matt Welsh - Publications and talks
+title: Publications and Talks
 ---
 
 The following are publications and talks by [Matt Welsh](http://www.mdw.la).
+
+[An archive of my publications is available here.](https://github.com/mdwelsh/mdwelsh.github.io/tree/master/papers)
 
 [Flywheel: Google's Data Compression Proxy for the Mobile Web](papers/flywheel-nsdi15.pdf),
 Victor Agababov, Michael Buettner, Victor Chudnovsky, Mark Cogan, Ben Greenstein, Shane McDaniel, Michael Piatek, Colin Scott, Matt Welsh, and Bolian Yin.
 In Proceedings of the 12th USENIX Symposium on Networked Systems Design and Implementation (NSDI 2015), May 2015.
 
-Mobile Network Performance from User Devices: A Longitudinal, Multidimensional Analysis,
+[Mobile Network Performance from User Devices: A Longitudinal, Multidimensional Analysis](papers/nikravesh-pam14.pdf),
 Ashkan Nikravesh, David R. Choffnes, Ethan Katz-Bassett, Z. Morley Mao, and Matt Welsh.
 In Proceedings of the Passive and Active Measurements Conference (PAM 2014), March 2014.
 
-Diagnosing Path Inflation of Mobile Client Traffic,
+[Diagnosing Path Inflation of Mobile Client Traffic](papers/zarifis-pam14.pdf),
 Kyriakos Zarifis, Tobias Flach, Srikanth Nori, David Choffnes, Ramesh Govindan, Ethan Katz-Bassett, Z. Morley Mao, and Matt Welsh.
 In Proceedings of the Passive and Active Measurements Conference (PAM 2014), March 2014.
 
@@ -21,27 +23,27 @@ Simbeeotic: A Simulator and Testbed for Micro-Aerial Vehicle Swarm Experiments,
 Bryan Kate, Jason Waterman, Karthik Dantu, and Matt Welsh.
 In Proceedings of the 11th ACM/IEEE Conference on Information Processing in Sensor Networks (IPSN 2012), April 2012.
 
-Programming Micro-Aerial Vehicle Swarms with Karma,
+[Programming Micro-Aerial Vehicle Swarms with Karma](papers/karma-sensys11.pdf),
 Karthik Dantu, Bryan Kate, Jason Waterman, Peter Bailis, and Matt Welsh.
 In Proceedings of ACM SenSys 2011, November 2011.
 
-Sensor Networks for the Sciences,
+[Sensor Networks for the Sciences](http://cacm.acm.org/magazines/2010/11/100632-sensor-networks-for-the-sciences/abstract),
 Matt Welsh.
 In *Communications of the ACM*, Vol. 53 No. 11, Pages 36-39, DOI 10.1145/1839676.1839690, November 2010.
 
-Mapping the Urban Wireless Landscape with Argos,
+[Mapping the Urban Wireless Landscape with Argos](papers/argos-sensys10.pdf),
 Ian Rose and Matt Welsh.
 In Proceedings of the 8th ACM Conference on Embedded Networked Sensor Systems (SenSys'10), November 2010.
 
-Dyson: An Architecture for Extensible Wireless LANs,
+[Dyson: An Architecture for Extensible Wireless LANs](papers/dyson-usenix10.pdf),
 Rohan Murty, Jitendra Padhye, Alec Wolman, and Matt Welsh.
 In Proceedings of the 2010 USENIX Annual Technical Conference, June 2010.
 
-IDEA: Integrated Distributed Energy Awareness for Wireless Sensor Networks,
+[IDEA: Integrated Distributed Energy Awareness for Wireless Sensor Networks](papers/idea-mobisys10.pdf),
 Geoffrey Werner Challen, Jason Waterman and Matt Welsh.
 In Proceedings of the 8th Annual International Conference on Mobile Systems, Applications and Services (MobiSys'10), June 2010.
 
-Monitoring Motor Fluctuations in Patients With Parkinson's Disease Using Wearable Sensors,
+[Monitoring Motor Fluctuations in Patients With Parkinson's Disease Using Wearable Sensors](papers/parkinsons-titb09.pdf),
 Shyamal Patel, Konrad Lorincz, Richard Hughes, Nancy Huggins, John Growdon, David Standaert, Metin Akay, Jennifer Dy, Matt Welsh, and Paolo Bonato.
 IEEE Transactions on Information Technology in Biomedicine, Volume 13, Issue 6, pages 864-873, November 2009.
 (PDF)
@@ -414,3 +416,8 @@ User Customization of Virtual Network Interfaces with U-Net/SLE.
 David Oppenheimer and Matt Welsh.
 UC Berkeley Technical Report CSD-98-995, December 1997.
 (Gzipped PostScript) Other formats available here.
+
+# Talks
+
+I have given a lot of talks.
+[Many of my talk slides are here.](https://github.com/mdwelsh/mdwelsh.github.io/tree/master/talks)

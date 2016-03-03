@@ -5,11 +5,32 @@ title: Publications and Talks
 
 The following are publications and talks by [Matt Welsh](http://www.mdw.la).
 
-# Talks
+## Talks
 
 I've given a lot of talks. Many (not all) of them are [archived on GitHub here](https://github.com/mdwelsh/mdwelsh.github.io/tree/master/talks).
 
-# Papers
+## Books
+
+*Running Linux.* 
+Matthias Kalle Dalheimer and Matt Welsh. O'Reilly and Associates, 5th Edition, December 2005. ISBN 0-596-00760-4. 
+[Buy on Amazon](http://www.amazon.com/Running-Linux-Matthias-Kalle-Dalheimer/dp/0596007604)
+
+*Linux Installation and Getting Started.*
+Matt Welsh.
+SSC, Inc., February 1995. ISBN 0-916151-77-8.
+[Older version in PDF](papers/linux-getting-started.pdf)
+
+## Thesis work
+
+[An Architecture for Highly Concurrent, Well-Conditioned Internet Services](papers/mdw-phdthesis.pdf),
+Matt Welsh.
+Ph.D. Thesis, University of California, Berkeley, August 2002.
+
+[A System Supporting High-Performance Communication and I/O in Java](papers/masters.pdf),
+Matt Welsh.
+Master's Thesis, University of California, Berkeley, October, 1999.
+
+## Papers
 
 [Most of my papers are available on GitHub here.](https://github.com/mdwelsh/mdwelsh.github.io/tree/master/papers)
 
@@ -323,7 +344,7 @@ In Proceedings of High-Performance Computer Architecture (HPCA) 3, San Antonio, 
 Matt Welsh, Anindya Basu, and Thorsten von Eicken.
 In Proceedings of EuroPar '96, Lyon, France, August 1996.
 
-# Technical Reports
+## Technical Reports
 
 [CitySense: A Vision for an Urban-Scale Wireless Networking Testbed](papers/citysense-techrept07.pdf),
 Rohan Murty, Abhimanyu Gosain, Matthew Tierney, Andrew Brody, Amal Fahad, Josh Bers, and Matt Welsh. 
@@ -360,3 +381,5 @@ UC Berkeley Technical Report UCB/CSD-00-1095, June 1999.
 [User Customization of Virtual Network Interfaces with U-Net/SLE](papers/unet-sle-tr.ps.gz).
 David Oppenheimer and Matt Welsh.
 UC Berkeley Technical Report CSD-98-995, December 1997.
+
+## 

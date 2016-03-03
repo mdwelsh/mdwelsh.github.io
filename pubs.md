@@ -18,15 +18,15 @@ Matthias Kalle Dalheimer and Matt Welsh. O'Reilly and Associates, 5th Edition, D
 *Linux Installation and Getting Started.*
 Matt Welsh.
 SSC, Inc., February 1995. ISBN 0-916151-77-8.
-[Older version in PDF](papers/linux-getting-started.pdf)
+[Older version in PDF](/papers/linux-getting-started.pdf)
 
 ## Thesis work
 
-[An Architecture for Highly Concurrent, Well-Conditioned Internet Services](papers/mdw-phdthesis.pdf),
+[An Architecture for Highly Concurrent, Well-Conditioned Internet Services](/papers/mdw-phdthesis.pdf),
 Matt Welsh.
 Ph.D. Thesis, University of California, Berkeley, August 2002.
 
-[A System Supporting High-Performance Communication and I/O in Java](papers/masters.pdf),
+[A System Supporting High-Performance Communication and I/O in Java](/papers/masters.pdf),
 Matt Welsh.
 Master's Thesis, University of California, Berkeley, October, 1999.
 

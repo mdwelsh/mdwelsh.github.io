@@ -1,7 +1,7 @@
 ---
 layout: page
 ---
-I am a technical lead manager at Google, where I work in the areas of mobile computing,
+I am a computer scientist and engineering manager at Google, where I work in the areas of mobile computing,
 distributed systems, and networking. I lead the Chrome Cloud team, which spans multiple subteams:
 [Chrome Sync](https://support.google.com/chrome/answer/165139?hl=en)
 (synchronizing bookmarks, settings, tab history across a user's devices);
@@ -17,12 +17,12 @@ Prior to joining Google, I was a professor of Computer Science at
 from 2002-2003. I did my PhD in Computer Science at [UC Berkeley](http://www.cs.berkeley.edu/) (2002)
 and my bachelor's in Computer Science at [Cornell University](https://www.cs.cornell.edu/) (1996).
 
-My research interests span a broad range of topics in the space of operating systems,
-networks, distributed systems, embedded systems, and programming languages.
+My research interests span a broad range of topics in the space of mobile computing,
+operating systems, networks, distributed systems, and programming languages.
 
 * [Publications and Talks](pubs)
 * [Volatile and Decentralized](http://matt-welsh.blogspot.com/) (my blog)
-* [My curriculum vitae](cv)
+* [My curriculum vitae](cv.pdf)
 
 Check out [this blog
 post](http://matt-welsh.blogspot.com/2011/05/what-im-working-on-at-google-making.html)

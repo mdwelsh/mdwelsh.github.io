@@ -372,6 +372,20 @@ Matt Welsh.
 SSC, Inc., February 1995. ISBN 0-916151-77-8.
 [Older version in PDF](/papers/linux-getting-started.pdf)
 
+## Book Chapters
+
+A Whole-Network Approach to Sensor Network Programming,
+Matt Welsh and Sam Madden. 
+In Nirupama Bulusu and Sanjay Jha (Eds.), *Wireless Sensor Networks: A Systems Perspective*, Artech House, Fall 2004.
+
+A Prehospital Database System for Emergency Medical Services,
+Nada Hashmi, Mark Gaynor, Marissa Pepe, Matt Welsh, William W. Tollefsen, Steven Moulton, and Dan Myung.
+In Stuart Barnes and Eusebio Scornavacca (Eds.), *Unwired Business: Cases in Mobile Business*, IRM Press, Fall 2005.
+
+TinyOS: An Operating System for Wireless Sensor Networks,
+Philip Levis, Sam Madden, Joseph Polastre, Robert Szewczyk, Kamin Whitehouse, Alec Woo, David Gay, Jason Hill, Matt Welsh, Eric Brewer, and David Culler.
+In W. Weber, J. Rabaey, and E. Aarts (Eds.), *Ambient Intelligence*, Springer-Verlag, 2004.
+
 ## Thesis work
 
 [An Architecture for Highly Concurrent, Well-Conditioned Internet Services](/papers/mdw-phdthesis.pdf),

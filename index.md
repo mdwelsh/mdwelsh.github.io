@@ -1,7 +1,6 @@
 ---
 layout: page
 ---
-
 I am a technical lead manager at Google, where I work in the areas of mobile computing,
 distributed systems, and networking. I lead the Chrome Cloud team, which spans multiple subteams:
 [Chrome Sync](https://support.google.com/chrome/answer/165139?hl=en)

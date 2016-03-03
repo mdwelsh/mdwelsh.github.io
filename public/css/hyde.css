@@ -96,6 +96,7 @@ html {
   height: 200px;
   border-radius: 50%;
   background-image: url("http://mdwelsh.github.io/mdw.jpg");
+  margin: 0 auto;
 }
 
 /* Sidebar nav */

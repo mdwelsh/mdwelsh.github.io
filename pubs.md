@@ -5,7 +5,13 @@ title: Publications and Talks
 
 The following are publications and talks by [Matt Welsh](http://www.mdw.la).
 
-[An archive of my publications is available here.](https://github.com/mdwelsh/mdwelsh.github.io/tree/master/papers)
+# Talks
+
+I've given a lot of talks. Many (not all) of them are [archived on GitHub here](https://github.com/mdwelsh/mdwelsh.github.io/tree/master/talks).
+
+# Papers
+
+[Most of my papers are available on GitHub here.](https://github.com/mdwelsh/mdwelsh.github.io/tree/master/papers)
 
 [Flywheel: Google's Data Compression Proxy for the Mobile Web](papers/flywheel-nsdi15.pdf),
 Victor Agababov, Michael Buettner, Victor Chudnovsky, Mark Cogan, Ben Greenstein, Shane McDaniel, Michael Piatek, Colin Scott, Matt Welsh, and Bolian Yin.
@@ -416,8 +422,3 @@ User Customization of Virtual Network Interfaces with U-Net/SLE.
 David Oppenheimer and Matt Welsh.
 UC Berkeley Technical Report CSD-98-995, December 1997.
 (Gzipped PostScript) Other formats available here.
-
-# Talks
-
-I have given a lot of talks.
-[Many of my talk slides are here.](https://github.com/mdwelsh/mdwelsh.github.io/tree/master/talks)

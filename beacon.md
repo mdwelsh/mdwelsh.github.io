@@ -1,5 +1,5 @@
 ---
-title: Beacon
+title: Matt Welsh's Physical Web Beacon
 layout: page
 ---
 

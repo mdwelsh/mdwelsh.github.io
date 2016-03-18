@@ -1,6 +1,6 @@
 ---
 title: Matt Welsh's Physical Web Beacon
-layout: page
+layout: hiddenpage
 ---
 
 Congratulations! You found my [Physical Web beacon](https://google.github.io/physical-web/).

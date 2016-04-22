@@ -99,7 +99,7 @@ Rohan Narayana Murty, Geoffrey Mainland, Ian Rose, Atanu Roy Chowdhury, Abhimany
 In Proceedings of the 2008 IEEE International Conference on Technologies for Homeland Security, Waltham, MA, May 2008.
 (PDF)
 
-pWireless Medical Sensor Networks in Emergency Response: Implementation and Pilot Results](/papers/aidn-ieeehst08.pdf),
+[Wireless Medical Sensor Networks in Emergency Response: Implementation and Pilot Results](/papers/aidn-ieeehst08.pdf),
 Tia Gao, Christopher Pesto, Leo Selavo, Yin Chen, JeongGil Ko, JongHyun Lim, Andreas Terzis, Andrew Watt, James Jeng, Bor-rong Chen, Konrad Lorincz, and Matt Welsh.
 In Proceedings of the 2008 IEEE International Conference on Technologies for Homeland Security, Waltham, MA, May 2008.
 (PDF)

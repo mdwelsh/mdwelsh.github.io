@@ -8,7 +8,7 @@ permalink:        pretty
 title:            mdw.la
 description:      'Matt Welsh'
 url:              http://mdwelsh.github.io
-baseurl:          http://www.mdw.la/
+baseurl:          /
 
 author:
   name:           'Matt Welsh'

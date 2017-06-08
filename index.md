@@ -22,7 +22,7 @@ operating systems, networks, distributed systems, and programming languages.
 
 * [Publications and Talks](pubs)
 * [Volatile and Decentralized](http://matt-welsh.blogspot.com/) (my blog)
-* [My curriculum vitae](mattwelsh-cv.pdf)
+* [My curriculum vitae](/mattwelsh-cv.pdf)
 
 Check out [this blog
 post](http://matt-welsh.blogspot.com/2011/05/what-im-working-on-at-google-making.html)

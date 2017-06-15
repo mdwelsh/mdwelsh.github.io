@@ -29,3 +29,5 @@ post](http://matt-welsh.blogspot.com/2011/05/what-im-working-on-at-google-making
 for some background on the Chrome Data Saver proxy, and
 [this paper from NSDI 2015](/papers/flywheel-nsdi15.pdf)
 which describes the service in detail.
+
+Test link [number one](papers/flywheel-nsdi15.pdf) and [number two](/papers/flywheel-nsdi15.pdf)

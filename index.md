@@ -31,3 +31,4 @@ for some background on the Chrome Data Saver proxy, and
 which describes the service in detail.
 
 Test link [number one](papers/flywheel-nsdi15.pdf) and [number two](/papers/flywheel-nsdi15.pdf)
+Test link [number three]({{'/papers/flywheel-nsdi15.pdf' | absolute_url}})

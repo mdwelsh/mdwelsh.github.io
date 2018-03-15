@@ -1,14 +1,19 @@
 ---
 layout: page
 ---
-I am a computer scientist and engineering manager at Google, where I work in the areas of mobile computing,
-distributed systems, and networking. I lead the Chrome Cloud team, which spans multiple subteams:
-[Chrome Sync](https://support.google.com/chrome/answer/165139?hl=en)
-(synchronizing bookmarks, settings, tab history across a user's devices);
-[Chrome Data Saver](https://support.google.com/chrome/answer/2392284?hl=en)
-(a proxy service to compress web pages);
-[Google Cloud Messaging](https://developers.google.com/cloud-messaging/) support
-in Chrome; and multiple projects to improve Chrome's performance and functionality in emerging markets.
+I am a computer scientist and engineering lead at Google, where I work in the areas of mobile
+computing, distributed systems, and networking. I lead the Chrome Mobile team at Google Seattle,
+specifcally focusing on making the web great for the next billion Internet users in emerging
+markets. We work to reduce the cost and improve the performance of the web on slower networks
+and devices, as well as new features to help everyone get the most out of the web. Some of
+our team's projects include:
+
+* [Chrome Data Saver](/papers/flywheel-nsdi15.pdf), allowing Chrome to save more than 60% of mobile data
+* Network optimizations for [HTTP/2](https://http2.github.io/) and [QUIC](https://www.chromium.org/quic)
+* New techniques for optimizing web content using cloud rendering
+* Support for saving, reading, and preloading [offline pages](https://support.google.com/chrome/answer/7343019?co=GENIE.Platform%3DAndroid&hl=en)
+* Web platform API support for mobile adaptations (e.g., [Netinfo ECT](https://wicg.github.io/netinfo/#effective-connection-types], [Save-Data hints](https://developers.google.com/web/updates/2016/02/save-data))
+* and much more.
 
 Prior to joining Google, I was a professor of Computer Science at
 [Harvard University](https://www.seas.harvard.edu/computer-science) from
@@ -23,9 +28,3 @@ operating systems, networks, distributed systems, and programming languages.
 * [Publications and Talks](pubs)
 * [Volatile and Decentralized](http://matt-welsh.blogspot.com/) (my blog)
 * [My curriculum vitae](/mattwelsh-cv.pdf)
-
-Check out [this blog
-post](http://matt-welsh.blogspot.com/2011/05/what-im-working-on-at-google-making.html)
-for some background on the Chrome Data Saver proxy, and
-[this paper from NSDI 2015](/papers/flywheel-nsdi15.pdf)
-which describes the service in detail.

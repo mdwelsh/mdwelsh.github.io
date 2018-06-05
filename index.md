@@ -3,7 +3,7 @@ layout: page
 ---
 I am a Principal Engineer at Google, where I work in the areas of mobile
 computing, distributed systems, and networking. I lead the Chrome Mobile team at Google's Seattle
-and Kirkland offices, specifcally focusing on making the web great for the next billion Internet
+and Kirkland offices, focusing on making the web great for the next billion Internet
 users in emerging markets. We work to reduce the cost and improve the performance of the web
 on slower networks and devices, as well as new features to help everyone get the most out of
 the web. Some of our team's projects include:

@@ -7,11 +7,11 @@ permalink:        pretty
 # Setup
 title:            mdw.la
 description:      'Matt Welsh'
-url:              http://mdwelsh.github.io
+url:              https://mdwelsh.github.io
 #baseurl:          /
 
 author:
   name:           'Matt Welsh'
-  url:            http://www.mdw.la
+  url:            https://www.mdw.la
 
 paginate:         5

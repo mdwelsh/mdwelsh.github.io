@@ -12,8 +12,8 @@ the web. Some of our team's projects include:
 * Network optimizations for [HTTP/2](https://http2.github.io/) and [QUIC](https://www.chromium.org/quic)
 * New techniques for optimizing web content using cloud rendering
 * Support for saving, reading, and preloading [offline pages](https://support.google.com/chrome/answer/7343019?co=GENIE.Platform%3DAndroid&hl=en)
-* Web platform API support for mobile adaptations (e.g., [Netinfo ECT](https://wicg.github.io/netinfo/#effective-connection-types], [Save-Data hints](https://developers.google.com/web/updates/2016/02/save-data))
-* and much more.
+* Web platform API support for mobile adaptations - [Netinfo ECT](https://wicg.github.io/netinfo/#effective-connection-types], [Save-Data hints](https://developers.google.com/web/updates/2016/02/save-data)
+* Developing new browser capabilities to help users discover new web content and more effectively multitask on small screens
 
 Prior to joining Google, I was a professor of Computer Science at
 [Harvard University](https://www.seas.harvard.edu/computer-science) from
@@ -27,4 +27,4 @@ operating systems, networks, distributed systems, and programming languages.
 
 * [Publications and Talks](pubs)
 * [Volatile and Decentralized](http://matt-welsh.blogspot.com/) (my blog)
-* [My curriculum vitae](/mattwelsh-cv.pdf)
+* [Resume](/mattwelsh-resume.pdf) and [Curriculum Vitae](/mattwelsh-cv.pdf)

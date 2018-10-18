@@ -25,6 +25,8 @@ and my bachelor's in Computer Science at [Cornell University](https://www.cs.cor
 My research interests span a broad range of topics in the space of mobile computing,
 operating systems, networks, distributed systems, and programming languages.
 
+I also do a bunch of software and electronics projects under the banner of [Team Sidney Enterprises](https://teamsidney.com).
+
 * [Publications and Talks](pubs)
 * [Volatile and Decentralized](http://matt-welsh.blogspot.com/) (my blog)
 * [Resume](/mattwelsh-resume.pdf) and [Curriculum Vitae](/mattwelsh-cv.pdf)

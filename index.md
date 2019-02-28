@@ -1,12 +1,14 @@
 ---
 layout: page
 ---
-I am a Principal Engineer at Google, where I work in the areas of mobile
-computing, distributed systems, and networking. I lead the Chrome Mobile team at Google's Seattle
-and Kirkland offices, focusing on making the web great for the next billion Internet
-users in emerging markets. We work to reduce the cost and improve the performance of the web
-on slower networks and devices, as well as new features to help everyone get the most out of
-the web. Some of our team's projects include:
+I am a Principal Engineer at [XNOR.ai](https://www.xnor.ai/).
+We develop AI technology that runs efficiently on embedded devices.
+
+Prior to joining XNOR.ai, I was a Principal Engineer at Google from
+2010 until 2019, where I led the Chrome Mobile team at Google's Seattle 
+and Kirkland offices. Our team focused on making the web great for
+the next billion Internet users in emerging markets. Some of our
+team's projects included:
 
 * [Chrome Data Saver](/papers/flywheel-nsdi15.pdf), allowing Chrome to save more than 60% of mobile data
 * Network optimizations for [HTTP/2](https://http2.github.io/) and [QUIC](https://www.chromium.org/quic)
@@ -28,5 +30,6 @@ operating systems, networks, distributed systems, and programming languages.
 I also do a bunch of software and electronics projects under the banner of [Team Sidney Enterprises](https://teamsidney.com).
 
 * [Publications and Talks](pubs)
-* [Volatile and Decentralized](http://matt-welsh.blogspot.com/) (my blog)
+* [My blog on Medium](https://medium.com/@mdwdotla) and
+  [Blogspot](http://matt-welsh.blogspot.com/)
 * [Resume](/mattwelsh-resume.pdf) and [Curriculum Vitae](/mattwelsh-cv.pdf)

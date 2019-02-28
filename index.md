@@ -1,10 +1,10 @@
 ---
 layout: page
 ---
-I am a Principal Engineer at [XNOR.ai](https://www.xnor.ai/).
+I am a Principal Engineer at [Xnor.ai](https://www.xnor.ai/).
 We develop AI technology that runs efficiently on embedded devices.
 
-Prior to joining XNOR.ai, I was a Principal Engineer at Google from
+Prior to joining Xnor, I was a Principal Engineer at Google from
 2010 until 2019, where I led the Chrome Mobile team at Google's Seattle 
 and Kirkland offices. Our team focused on making the web great for
 the next billion Internet users in emerging markets. Some of our

@@ -1,8 +1,8 @@
 ---
 layout: page
 ---
-I am a Principal Engineer at [Xnor.ai](https://www.xnor.ai/), where
-I lead the Platform and Systems teams.
+I am a Principal Engineer and head of the Platform and Systems
+teams at [Xnor.ai](https://www.xnor.ai/).
 We develop AI technology that runs efficiently on embedded devices.
 
 Prior to joining Xnor, I was a Principal Engineer at Google from

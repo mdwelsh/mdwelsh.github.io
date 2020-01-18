@@ -2,8 +2,8 @@
 layout: page
 ---
 
-I am an engineering lead and computer scientist at Apple, working on the Machine Intelligence team in Seattle.
-My team specializes in optimized on-device AI.
+I am an engineering lead and computer scientist at [Apple](https://www.apple.com), working on
+the Machine Intelligence team in Seattle. My team specializes in optimized on-device AI.
 
 Prior to Apple, I was a Principal Engineer at [Xnor.ai](https://www.xnor.ai), a Seattle-based startup developing
 efficient AI for embedded systems. I led Xnor's Platform and Systems team, focusing on our high-performance

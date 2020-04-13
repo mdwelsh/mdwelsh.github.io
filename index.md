@@ -2,12 +2,15 @@
 layout: page
 ---
 
-I am an engineering lead and computer scientist at [Apple](https://www.apple.com), working on
-the Machine Intelligence team in Seattle. My team specializes in optimized on-device AI.
+I am a Distinguished Engineer at [OctoML](https://www.octoml.ai), a Seattle-based startup
+developing technology to optimize and secure machine learning models for deployment.
 
-Prior to Apple, I was a Principal Engineer at [Xnor.ai](https://www.xnor.ai), a Seattle-based startup developing
+Prior to OctoML, I was an engineering lead and computer scientist at [Apple](https://www.apple.com), working on
+the Machine Intelligence team in Seattle. My team specialized in optimized on-device AI.
+
+Prior to Apple, I was a Principal Engineer at [Xnor.ai](https://www.xnor.ai), a startup developing
 efficient AI for embedded systems. I led Xnor's Platform and Systems team, focusing on our high-performance
-inference engine. Xnor joined Apple in early 2020.
+inference engine. Xnor was acquired Apple in early 2020.
 
 Prior to Xnor, I spent 8 years at Google as a Principal Engineer and lead for the Chrome Mobile
 team in Seattle. Our team focused on making Chrome and the web great for the next billion users, developing new

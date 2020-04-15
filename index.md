@@ -2,7 +2,7 @@
 layout: page
 ---
 
-I am a Distinguished Engineer at [OctoML](https://www.octoml.ai), a Seattle-based startup
+I am a Distinguished Engineer at [OctoML](https://octoml.ai), a Seattle-based startup
 developing technology to optimize and secure machine learning models for deployment.
 
 Prior to OctoML, I was an engineering lead and computer scientist at [Apple](https://www.apple.com), working on

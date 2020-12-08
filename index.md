@@ -67,20 +67,21 @@ data and communicating locally via a low-power wireless radio. Some of our resea
 
 ## Former Students, Postdocs, and Advisees
 
-* Peter Bailis
-* Geoff Challen
-* Bor-rong Chen
-* Kathik Dantu
-* Bryan Kate
-* Konrad Lorincz
-* Geoff Mainland
-* Rohan Murty
-* Peter Pietzuch
-* Ian Rose
-* Atanu Roy Chowdhury
-* Victor Shnayder
-* Jason Waterman
-* Chelsea Zhang
+* [Peter Bailis](http://www.bailis.org/), professor at Stanford University, CEO and co-founder, Sisu Data
+* [Geoff Challen](https://cs.illinois.edu/about/people/faculty/challen), professor at UIUC
+* [Bor-rong Chen](https://www.linkedin.com/in/brchen007/), engineering manager at Apple
+* [Kathik Dantu](https://cse.buffalo.edu/faculty/kdantu/), professor at University of Buffalo
+* [Amal Fahad](https://www.linkedin.com/in/amal-fahad-41561550/), software engineer at Microsoft
+* [Bryan Kate](https://www.linkedin.com/in/bryan-kate-31bb3b86/), software engineer at Google
+* [Konrad Lorincz](https://www.linkedin.com/in/konrad-lorincz-7aa2b812/), software engineer at Akamai
+* [Geoff Mainland](https://www.cs.drexel.edu/~mainland/), professor at Drexel University
+* [Rohan Murty](https://en.wikipedia.org/wiki/Rohan_Murty), entrepreneur
+* [Peter Pietzuch](https://www.imperial.ac.uk/people/prp), professor at Imperial College London
+* [Ian Rose](https://www.ianthomasrose.com/), software engineer at FullStory
+* [Atanu Roy Chowdhury](https://www.linkedin.com/in/atanurc/), Altiux Innovations
+* [Victor Shnayder](https://www.linkedin.com/in/victor-shnayder/), program manager at Microsoft
+* [Jason Waterman](https://www.vassar.edu/faculty/jawaterman/), professor at Vassar University
+* [Chelsea Zhang](https://www.linkedin.com/in/chelseaz1/), PhD student at Berkeley
 
 Prior to Harvard, I was a Senior Researcher at
 [Intel Research](http://www.intel.com/content/www/us/en/research/intel-research.html), Berkeley

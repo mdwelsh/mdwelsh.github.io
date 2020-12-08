@@ -4,6 +4,10 @@ layout: page
 
 I am a Distinguished Engineer at [OctoML](https://octoml.ai), a Seattle-based startup
 developing technology to optimize and secure machine learning models for deployment.
+OctoML is developing [Apache TVM](https://tvm.apache.org/), an optimizing compiler for
+ML models, as well as cloud-based services to measure, tune, and package ML models for
+a wide range of hardware backends.
+
 My research interests span a broad range of topics in the space of machine learning systems,
 mobile computing, operating systems, networks, distributed systems, and programming languages.
 

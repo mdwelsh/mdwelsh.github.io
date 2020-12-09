@@ -16,7 +16,7 @@ the Machine Intelligence team in Seattle. My team specialized in optimized on-de
 
 Prior to Apple, I was a Principal Engineer at [Xnor.ai](https://www.xnor.ai), a startup developing
 efficient AI for embedded systems. I led Xnor's Platform and Systems team, focusing on our high-performance
-inference engine. Xnor was acquired Apple in early 2020.
+inference engine. Xnor was acquired by Apple in early 2020.
 
 Prior to Xnor, I spent 8 years at Google as a Principal Engineer and engineering director for the Chrome Mobile
 team in Seattle. Our team focused on making Chrome and the web great for the next billion users, developing new
@@ -38,14 +38,14 @@ of wireless sensor networks, consisting of tiny, battery-powered devices capable
 data and communicating locally via a low-power wireless radio. Some of our research projects included:
 
 * [Monitoring active volcanoes](/papers/volcano-osdi06.pdf) with sensor networks. Working with
-  geophysicists from UNC, UNH, and the [Instituo Geofisico](https://www.igepn.edu.ec/) in Ecuador,
+  geophysicists from UNC, UNH, and the [Instituto Geofísico](https://www.igepn.edu.ec/) in Ecuador,
   we deployed sensors at Volcáns Tunguruahua and Reventador in Ecuador, collecting infrasound
   and seismic measurements.
 * [Pixie](/papers/pixie-sensys08.pdf), an operating system for resource-aware programming, a new
   approach to managing scarce resources in heavily constrained embedded systems.
 * [Mercury](/papers/mercury-sensys09.pdf), a wearable sensor platform for high-resolution motion
   analysis.
-* Using wearable sensoes for measuring [motor fluctuations in patients with Parkinson's Disease](/papers/parkinsons-titb09.pdf),
+* Using wearable sensors for measuring [motor fluctuations in patients with Parkinson's Disease](/papers/parkinsons-titb09.pdf),
   in collaboration with researchers at the [Spaulding Rehabilitation Hospital](https://spauldingrehab.org/).
 * Wireless sensors for [emergency and mass casualty response](/papers/aidn-ieeehst08.pdf), in
   collaboration with researchers at JHU and Boston University.
@@ -75,7 +75,9 @@ data and communicating locally via a low-power wireless radio. Some of our resea
 * [Geoff Challen](https://cs.illinois.edu/about/people/faculty/challen), professor at UIUC
 * [Bor-rong Chen](https://www.linkedin.com/in/brchen007/), engineering manager at Apple
 * [Kathik Dantu](https://cse.buffalo.edu/faculty/kdantu/), professor at University of Buffalo
+* [Steve Dawson-Haggerty](https://www.linkedin.com/in/stephen-dawson-haggerty-7188a161/), entrepreneur
 * [Amal Fahad](https://www.linkedin.com/in/amal-fahad-41561550/), software engineer at Microsoft
+* [Thaddeus Fulford-Jones](https://www.linkedin.com/in/fulfordjones/), entrepreneur
 * [Bryan Kate](https://www.linkedin.com/in/bryan-kate-31bb3b86/), software engineer at Google
 * [Konrad Lorincz](https://www.linkedin.com/in/konrad-lorincz-7aa2b812/), software engineer at Akamai
 * [Geoff Mainland](https://www.cs.drexel.edu/~mainland/), professor at Drexel University

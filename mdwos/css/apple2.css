@@ -1,0 +1,700 @@
+/* Copyright 2010-2019 Will Scullin */
+
+#header {
+  width: 580px;
+  margin: auto;
+  display: none;
+}
+
+img {
+    border: none;
+}
+
+#badge {
+    cursor: pointer;
+}
+
+#subtitle {
+    margin: 0;
+    padding: 3px 0 0 10;
+    color: black;
+    font-family: "Adobe Garamond Pro",Garamond,Times;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.motter {
+    font-family: "Motter Tektura";
+    font-size: 12px;
+}
+
+input[type="button"] {
+    width: 75px;
+}
+
+input[type="text"] {
+    width: 40px;
+}
+
+body {
+    margin: 16px 0;
+    font-size: 14px;
+    background-color: #202020;
+    font-family: sans-serif;
+}
+
+.outer {
+    margin: auto;
+    /* width: 1092px; */
+}
+
+#display {
+    margin: 5px auto;
+    width: 100%;
+}
+
+.overscan {
+    margin: auto;
+    position: relative;
+    background-color: black;
+    /* width: 592px; */
+    /* height: 416px; */
+    width: 1184px;
+    height: 832px;
+    /* border: 6px inset #f0edd0; */
+    /* border-radius: 10px; */
+}
+
+.full-page {
+    background: black;
+}
+
+.full-page #display {
+    width: 100vw;
+    height: 68.5714vw; /* 384px / 560px * 100% */
+    max-height: 100vh;
+    max-width: 145.83vh; /* 560px / 384px * 100% */
+    padding: 0;
+    border: 0;
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    justify-content: center;
+    align-items: center;
+    margin: auto !important;
+}
+
+.full-page .overscan {
+    margin: initial;
+    padding: 0;
+    width: initial;
+    height: 384px;
+    border: 0;
+    border-radius: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.full-page #screen {
+    width: 100%;
+    height: 100%;
+}
+
+.full-page #header, .full-page .inset, .full-page #reset {
+    display: none;
+}
+
+#power {
+    padding: 2px;
+    border: 1px inset #888;
+}
+
+#disk-row {
+  display: none;
+}
+
+.disk {
+    align-items: center;
+    display: flex;
+    flex-grow: 1;
+    max-width: 50%;
+}
+
+.disk-light {
+    margin: 5px;
+    background-image: url(red-off-16.png);
+    flex-shrink: 0;
+    width: 16px;
+    height: 16px;
+}
+
+.disk-label {
+    color: #000;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-right: 0.5em;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    flex-grow: 1;
+}
+
+.code {
+    font-family: Courier;
+    font-size: 14px;
+    white-space: pre;
+}
+
+.debug_page {
+    padding: 0;
+    font-family: Courier;
+    font-size: 10px;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #ccc;
+}
+
+.inset {
+    border-radius: 6px;
+    /* border: 3px inset #f0edd0; */
+    padding: 6px;
+    margin: 10px 0;
+    display: flex;
+}
+
+.inset button {
+    min-width: 36px;
+}
+
+.inset button {
+    margin: 0 2px;
+}
+
+#khz {
+    margin-right: 4px;
+    overflow: hidden;
+    padding: 4px;
+    font-family: Courier;
+    font-size: 12px;
+    width: 60px;
+    height: 15px;
+    text-align: right;
+    background: #000;
+    color: #0f0;
+    border: 2px inset #888;
+    border-radius: 4px;
+}
+
+canvas {
+  display: block;
+  float: left;
+}
+
+/*
+.mono {
+   filter: url('#green'); 
+}
+*/
+
+.scanlines:after {
+    display: block;
+    background-image: repeating-linear-gradient(to bottom, transparent 0, transparent 1px, #000 1px, #000 2px);
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+#screen {
+    cursor: crosshair;
+    /* -moz-image-rendering: -moz-crisp-edges; */
+    /* -webkit-image-rendering: -webkit-optimize-contrast; */
+    /* image-rendering: optimizeSpeed; */
+
+    /* width: 592px; */
+    /* height: 416px; */
+    /* MDW: Original display is 280 x 192.
+     * The original canvas code draws with a target of 560 x 384.
+     * 592 x 416 gives us a 16px margin around the border.
+     * We want to go (1120 + 64 = 1184) x (768 + 64 = 832).
+     */
+    width: 1184px;  /* Want to keep this 4x of 560 x 192 */
+    height: 832px;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -webkit-crisp-edges;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+}
+
+#screen:-webkit-full-screen {
+    background-color: black;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#about {
+    padding: 16px;
+    margin: 0;
+    font-family: "Adobe Garamond Pro",Garamond,Times;
+    font-size: 14px;
+    background-color: #fff;
+    color: #000;
+}
+
+#about a {
+    background-color: #fff;
+    color: #000;
+}
+
+#load-modal select {
+    width: 250px;
+    height: 300px;
+    font-size: 14px;
+}
+
+#load-modal input {
+    font-size: 14px;
+    line-height: 14px;
+}
+
+#loading-modal .meter {
+    width: 200px;
+    height: 15px;
+    background-color: black;
+    border: 1px inset #888;
+}
+
+#loading-modal .progress {
+    position: absolute;
+    height: 15px;
+    background-color: #0f0;
+}
+
+.modal {
+    display: none;
+}
+
+.modal.is-open {
+    display: block;
+}
+
+.modal__overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal__container {
+    background-color: #c4c1a0;
+    padding: 10px;
+    max-height: 100vh;
+    border-radius: 4px;
+    overflow-y: auto;
+    box-sizing: border-box;
+}
+
+.modal__header {
+    display: flex;
+    font-size: 14px;
+    justify-content: space-between;
+    align-items: center;
+    background: #44372C;
+    color: #fff;
+    padding: 5px 11px;
+    border: 1px outset #66594E;
+    border-radius: 3px;
+}
+
+.modal__title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1.25;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.modal__close, .modal__close:active, .modal__close:hover {
+    background: transparent;
+    padding: 3px;
+}
+
+.modal__header .modal__close:before {
+    content: "\2715";
+}
+
+.modal__content {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    color: #000;
+}
+
+.modal__footer {
+    text-align: right;
+}
+
+button {
+    background: #44372C;
+    color: #fff;
+    padding: 2px 8px;
+    border: 1px outset #66594E;
+    border-radius: 3px;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #55473D;
+    border: 1px outset #66594E;
+}
+
+button:active {
+    background-color: #22150A;
+    border: 1px outset #44372C;
+}
+
+button:focus {
+    outline: none;
+}
+
+#keyboard-row {
+  display: none;
+}
+
+#keyboard, #reset {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-size: 10px;
+}
+
+#keyboard .row {
+    display: block;
+    margin: 0;
+    padding: 0;
+    height: 42px;
+    font-family: Helvetica;
+    width: 570px;
+}
+
+.apple2e #keyboard .row {
+    width: 610px;
+}
+
+#keyboard .row0 {
+    margin-left: 20px;
+}
+
+#keyboard .row2 {
+    margin-left: 10px;
+}
+
+#keyboard .row3 {
+    margin-left: 10px;
+}
+
+#keyboard .row4 {
+    margin-left: 10px;
+}
+
+.apple2e #keyboard .row0 {
+    margin-left: 0;
+}
+
+.apple2e #keyboard .row2 {
+    margin-left: 0;
+}
+
+.apple2e #keyboard .row3 {
+    margin-left: 0;
+}
+
+.apple2e #keyboard .row4 {
+    margin-left: 0;
+}
+
+#keyboard .key {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 32px;
+    height: 32px;
+    background-color: #44372C;
+    color: white;
+    text-align: center;
+    position: relative;
+    border-left: 5px solid #65594D;
+    border-top: 5px solid #65594D;
+    border-right: 5px solid #110E0D;
+    border-bottom: 5px solid #110E0D;
+    /* border: 5px outset #66594E; */
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#keyboard .pressed {
+    background-color: #22150A;
+    border-left: 5px solid #44372C;
+    border-top: 5px solid #44372C;
+    border-right: 5px solid #000000;
+    border-bottom: 5px solid #000000;
+    /* border: 5px outset #44372C; */
+}
+
+#keyboard .key div {
+    border-radius: 3px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+#keyboard .v-center div {
+    bottom: 10px;
+}
+
+#keyboard .v-center2 div {
+    bottom: 5px;
+}
+
+#keyboard .key span {
+    font-size: 13px;
+}
+
+#keyboard .key .small {
+    font-size: 7px;
+}
+
+#keyboard .key-SHIFT {
+    width: 53px;
+}
+
+#keyboard .active {
+    color: #4f4;
+}
+
+#keyboard .key-RETURN {
+    width: 52px;
+}
+
+#keyboard .key-DELETE {
+    width: 47px;
+}
+
+#keyboard .key-TAB {
+    width: 47px;
+}
+
+#keyboard .key-POWER {
+    width: 38px;
+    height: 38px;
+    border: 2px groove black;
+    background-color: #ffd;
+    color: black;
+    border-radius: 2px;
+}
+
+#keyboard .key-POWER div {
+    bottom: 15px;
+}
+
+#keyboard .key-nbsp {
+    margin-left: 62px;
+    width: 330px;
+}
+
+.apple2e #display {
+    margin: 5px;
+}
+
+.apple2e .inset {
+    width: 604px;
+}
+
+.apple2e #keyboard .key-CTRL {
+    width: 60px;
+}
+
+.apple2e #keyboard .key-RETURN {
+    width: 60px;
+}
+
+.apple2e #keyboard .key-SHIFT {
+    width: 81px;
+}
+
+.apple2e #keyboard .key-nbsp {
+    margin-left: 0;
+    width: 215px;
+}
+
+#keyboard .key-POW {
+    width: 38px;
+    height: 38px;
+    border: 2px groove black;
+    background-color: #ffd;
+    color: black;
+    border-radius: 2px;
+}
+
+#keyboard .key-POW div {
+    bottom: 15px;
+}
+
+#keyboard .key-POW span {
+    background: #4f4;
+    color: #4f4;
+}
+
+#keyboard .key-OPEN_APPLE div {
+    background-image: url(../img/open-apple24.png);
+    width: 24px;
+    height: 24px;
+    bottom: 1px;
+    left: 4px;
+}
+
+#keyboard .key-OPEN_APPLE span {
+    display: none;
+}
+
+#keyboard .key-M div span:first-child {
+    display: none;
+}
+
+.apple2e #keyboard .key-M div span:first-child {
+    display: inline;
+}
+
+#controls {
+    flex-grow: 1;
+}
+
+.spacer {
+    flex-grow: 1;
+}
+
+#reset-row {
+    align-items: center;
+    /* display: flex; */
+    display: none;
+    margin: 10px 0;
+}
+
+#reset-row .inset {
+    margin: 0;
+}
+
+#reset {
+    background: #44372C;
+    border-left: 3px solid #65594D;
+    border-top: 3px solid #65594D;
+    border-right: 3px solid #110E0D;
+    border-bottom: 3px solid #110E0D;
+    /* border: 5px outset #66594E; */
+    border-radius: 3px;
+    color: white;
+    font: 9px Helvetica;
+    height: 42px;
+    padding: 0;
+    margin-left: 10px;
+    width: 42px;
+}
+
+#reset:hover {
+  background: #44372C;
+  border: 3px outset #66594E;
+}
+
+#reset:active {
+  background: #22150A;
+  border: 5px outset #44372C;
+}
+
+#keyboard .key-OPEN_APPLE.active div {
+    background-image: url(../img/open-apple24-green.png);
+}
+
+#keyboard .key-CLOSED_APPLE div {
+    background-image: url(../img/closed-apple24.png);
+    width: 24px;
+    height: 24px;
+    bottom: 1px;
+    left: 4px;
+}
+
+#keyboard .key-CLOSED_APPLE.active div {
+    background-image: url(../img/closed-apple24-green.png);
+}
+
+#keyboard .key-CLOSED_APPLE span {
+    display: none;
+}
+
+.standalone {
+  position: fixed;
+  width: 100%;
+}
+
+.standalone #header {
+    display: none;
+}
+
+#http_url {
+    width: 500px;
+}
+
+#save_name {
+    width: 200px;
+}
+
+#options-modal {
+    width: 300px;
+    line-height: 1.75em;
+}
+
+#options-modal h3 {
+    font-size: 13px;
+}
+
+#options-modal li {
+    list-style-type: none;
+}
+
+#printer-modal .paper {
+    width: 70em;
+    height: 90ch;
+    overflow: auto;
+    background-color: white;
+    color: black;
+}
+
+#printer-modal .line {
+    font-family: monospace;
+    white-space: pre;
+}
+
+#alert-modal-content {
+    min-width: 200px;
+    min-height: 50px;
+}

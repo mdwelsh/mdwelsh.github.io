@@ -1,0 +1,48 @@
+<html>
+<head>
+<title>Matt Welsh | mdw.la</title>
+
+<meta name="viewport" content="width=1092, user-scalable=no" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Matt Welsh">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta charset="utf-8" />
+<meta name="description" content="The home page of Matt Welsh." />
+
+<link rel="shortcut icon" href="img/favicon.ico">
+
+<link rel="stylesheet" type="text/css" href="css/apple2.css" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.2/css/all.css" />
+
+<script>
+  window.e = true
+</script>
+
+<!-- Disk Index -->
+<script type="text/javascript" src="json/disks/index.js"></script>
+
+</head>
+<body class="apple2e"
+  <div class="outer">
+    <div id="display">
+      <div class="overscan">
+        <canvas id="screen" width="1300" height="900"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <svg width="0" height="0" xmlns="http://www.w3.org/2000/svg">
+    <filter id="green">
+      <feColorMatrix
+        type="matrix"
+        values="0.0 0.0 0.0 0.0 0
+                0.0 1.0 0.0 0.0 0
+                0.0 0.0 0.5 0.0 0
+                0.0 0.0 0.0 1.0 0"
+      />
+      </filter>
+  </svg>
+
+  <script src="dist/main2e.js"></script>
+</body>
+</html>

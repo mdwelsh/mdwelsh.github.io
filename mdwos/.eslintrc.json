@@ -1,0 +1,113 @@
+{
+    "parser": "@typescript-eslint/parser",
+    "plugins": ["@typescript-eslint/eslint-plugin"],
+    "rules": {
+        "indent": [
+            "error",
+            4,
+            {
+                "SwitchCase": 1
+            }
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "prefer-const": [
+            "error"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "no-use-before-define": "off",
+        "@typescript-eslint/no-use-before-define": [
+            "error",
+            {
+                "functions": false,
+                "classes": false
+            }
+        ],
+        "no-unused-vars": "off",
+        "@typescript-eslint/no-unused-vars": [
+          "error",
+          {
+              "argsIgnorePattern": "^_"
+          }
+        ],
+        "no-redeclare": "off",
+        "@typescript-eslint/no-redeclare": ["error"],
+        "no-dupe-class-members": "off",
+        "no-console": [
+            "error",
+            {
+                "allow": [
+                    "info",
+                    "warn",
+                    "error"
+                ]
+            }
+        ]
+    },
+    "env": {
+        "builtin": true,
+        "browser": true,
+        "es6": true
+    },
+    "parserOptions": {
+        "sourceType": "module"
+    },
+    "extends": "eslint:recommended",
+    "overrides": [
+        {
+            "files": [
+                "**/*.ts"
+            ],
+            "rules": {
+                "no-var": "error"
+            }
+        },
+        {
+            "files": [
+                "bin/*",
+                "babel.config.js",
+                "webpack.config.js"
+            ],
+            "rules": {
+                "no-console": 0
+            },
+            "env": {
+                "node": true,
+                "jquery": false,
+                "browser": false
+            }
+        },
+        {
+            "files": [
+                "test/**/*"
+            ],
+            "env": {
+                "jest": true,
+                "jasmine": true,
+                "node": true
+            },
+            "rules": {
+                "no-console": 0
+            }
+        },
+        {
+            "files": [
+                "js/entry2.js",
+                "js/entry2e.js",
+                "jest.config.js"
+            ],
+            "env": {
+                "commonjs": true
+            }
+        }
+    ]
+}

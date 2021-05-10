@@ -2,8 +2,7 @@
 layout: page
 ---
 
-Check out my all-new web page for the Apple II by clicking below:
-
+*Check out my all-new web page for the Apple II by clicking below!*
 [![MDWOS Banner](/mdwos-banner.png)](/mdwos)
 
 

@@ -2,6 +2,11 @@
 layout: page
 ---
 
+Check out my all-new web page for the Apple II by clicking below:
+
+[![MDWOS Banner](/mdwos-banner.png)](/mdwos)
+
+
 I am the VP of Engineering at [OctoML](https://octoml.ai), a Seattle-based startup
 developing technology to optimize and secure machine learning models for deployment.
 OctoML is developing [Apache TVM](https://tvm.apache.org/), an optimizing compiler for

@@ -15,3 +15,5 @@ author:
   url:            https://www.mdw.la
 
 paginate:         5
+
+theme: jekyll-theme-cayman

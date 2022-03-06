@@ -5,15 +5,22 @@ layout: page
 *Check out my all-new web page for the Apple II by clicking below!*
 [![MDWOS Banner](/mdwos-banner.png)](/mdwos)
 
+Hi there! I'm Matt, and I'm a software engineer, computer scientist,
+and team builder who loves working on the bleeding edge of technology
+and developing products to improve the lives of users all over the
+world. I enjoy both leading teams and writing code.
 
-I am the SVP of Engineering at [OctoML](https://octoml.ai), a Seattle-based startup
+I’ve been the head of engineering for a fast-growing startup, led
+teams at Google and Apple, and been a Professor of Computer Science
+at Harvard. My technical background is in machine learning systems,
+distributed systems, networks, mobile computing, and embedded
+systems.
+
+I'm currently the SVP of Engineering at [OctoML](https://octoml.ai), a Seattle-based startup
 developing technology to optimize and secure machine learning models for deployment.
 OctoML is developing [Apache TVM](https://tvm.apache.org/), an optimizing compiler for
 ML models, as well as cloud-based services to measure, tune, and package ML models for
 a wide range of hardware backends.
-
-My research interests span a broad range of topics in the space of machine learning systems,
-mobile computing, operating systems, networks, distributed systems, and programming languages.
 
 Prior to OctoML, I was an engineering lead and computer scientist at [Apple](https://www.apple.com), working on
 the Machine Intelligence team in Seattle. My team specialized in optimized on-device AI.
@@ -26,7 +33,7 @@ Prior to Xnor, I spent 8 years at Google as a Principal Engineer and engineering
 team in Seattle. Our team focused on making Chrome and the web great for the next billion users, developing new
 browser capabilities to make the web faster and use less data.
 
-Some of our team's projects included:
+Some of our team's projects at Google included:
 
 * [Chrome Data Saver](/papers/flywheel-nsdi15.pdf), allowing Chrome to save more than 60% of mobile data
 * Network optimizations for [HTTP/2](https://http2.github.io/) and [QUIC](https://www.chromium.org/quic)
@@ -36,7 +43,7 @@ Some of our team's projects included:
 * Developing new browser capabilities to help users discover new web content and more effectively multitask on small screens
 
 Prior to joining Google, I was a Professor of Computer Science at
-[Harvard University](https://www.seas.harvard.edu/computer-science) from 2003 until 2010. 
+[Harvard University](https://www.seas.harvard.edu/computer-science).
 My research group at Harvard focused on operating systems, networking, and novel applications
 of wireless sensor networks, consisting of tiny, battery-powered devices capable of collecting
 data and communicating locally via a low-power wireless radio. Some of our research projects included:
@@ -100,6 +107,7 @@ and my bachelor's in Computer Science at [Cornell University](https://www.cs.cor
 
 I also do a bunch of software and electronics projects under the banner of [Team Sidney Enterprises](https://teamsidney.com).
 
+* [My LinkedIn Page](https://www.linkedin.com/in/welsh-matt/)
 * [Publications and Talks](pubs)
 * [My blog on Medium](https://medium.com/@mdwdotla) and
   [Blogspot](http://matt-welsh.blogspot.com/)

@@ -16,7 +16,7 @@ at Harvard. My technical background is in machine learning systems,
 distributed systems, networks, mobile computing, and embedded
 systems.
 
-I'm currently the SVP of Engineering at [OctoML](https://octoml.ai), a Seattle-based startup
+I'm formerly SVP of Engineering at [OctoML](https://octoml.ai), a Seattle-based startup
 developing technology to optimize and secure machine learning models for deployment.
 OctoML is developing [Apache TVM](https://tvm.apache.org/), an optimizing compiler for
 ML models, as well as cloud-based services to measure, tune, and package ML models for

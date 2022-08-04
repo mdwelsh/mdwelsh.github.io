@@ -16,4 +16,5 @@ author:
 
 paginate:         5
 
-theme: jekyll-theme-cayman
+remote_theme: tareqdandachi/jekyll-shell-theme
+# theme: jekyll-theme-cayman

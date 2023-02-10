@@ -5,18 +5,14 @@ layout: page
 *Check out my all-new web page for the Apple II by clicking below!*
 [![MDWOS Banner](/mdwos-banner.png)](/mdwos)
 
-Hi there! I'm Matt, and I'm computer scientist, engineer,
-and startup founder who loves working on the bleeding edge of technology
-and developing products to improve the lives of users all over the
-world. I enjoy both leading teams and writing code.
+Hi there! I'm Matt, I'm the CEO of [Fixie.ai](https://fixie.ai), a
+startup building the next generation computing platform using Large
+Language Models.
 
 I’ve been the head of engineering for a fast-growing startup, led
 teams at Google and Apple, and been a Professor of Computer Science
-at Harvard. My technical background is in machine learning systems,
-distributed systems, networks, mobile computing, and embedded
-systems.
-
-I am the founder of a startup in the AI space, currently in stealth mode.
+at Harvard. My technical background is in AI, ML, systems, networks,
+and mobile computing.
 
 Previously, I was SVP of Engineering at [OctoML](https://octoml.ai), a Seattle-based
 startup developing technology to optimize and secure machine learning models for deployment.

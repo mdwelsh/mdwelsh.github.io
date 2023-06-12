@@ -5,7 +5,7 @@ layout: page
 *Check out my all-new web page for the Apple II by clicking below!*
 [![MDWOS Banner](/mdwos-banner.png)](/mdwos)
 
-Hi there! I'm Matt, I'm the CEO of [Fixie.ai](https://fixie.ai), a
+Hi there! I'm Matt, I'm Chief Architect and co-founder of [Fixie.ai](https://fixie.ai), a
 startup building the next generation computing platform using Large
 Language Models.
 

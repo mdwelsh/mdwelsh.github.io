@@ -5,16 +5,12 @@ layout: page
 *Check out my all-new web page for the Apple II by clicking below!*
 [![MDWOS Banner](/mdwos-banner.png)](/mdwos)
 
-Hi there! I'm Matt, I'm Chief Architect and co-founder of [Fixie.ai](https://fixie.ai), a
-startup building the next generation computing platform using Large
-Language Models.
+Hi there! I'm Matt, I'm an AI startup founder working on a new computing
+platform based on Large Language Models.
 
-I’ve been the head of engineering for a fast-growing startup, led
-teams at Google and Apple, and been a Professor of Computer Science
-at Harvard. My technical background is in AI, ML, systems, networks,
-and mobile computing.
+I was previously co-founder and Chief Architect and co-founder of [Fixie.ai](https://fixie.ai).
 
-Previously, I was SVP of Engineering at [OctoML](https://octoml.ai), a Seattle-based
+Before Fixie, I was SVP of Engineering at [OctoML](https://octoml.ai), a Seattle-based
 startup developing technology to optimize and secure machine learning models for deployment.
 OctoML is developing [Apache TVM](https://tvm.apache.org/), an optimizing compiler for
 ML models, as well as cloud-based services to measure, tune, and package ML models for

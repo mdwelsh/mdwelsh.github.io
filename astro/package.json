@@ -11,7 +11,6 @@
     "format:check": "prettier --check . --plugin=prettier-plugin-astro",
     "format": "prettier --write . --plugin=prettier-plugin-astro",
     "cz": "cz",
-    "prepare": "husky install",
     "lint": "eslint ."
   },
   "dependencies": {
@@ -45,7 +44,6 @@
     "esbuild": "^0.20.2",
     "eslint": "^8.56.0",
     "eslint-plugin-astro": "^0.31.3",
-    "husky": "^8.0.3",
     "lint-staged": "^15.2.0",
     "prettier": "^3.2.4",
     "prettier-plugin-astro": "^0.13.0",

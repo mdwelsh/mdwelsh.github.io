@@ -14,11 +14,11 @@ description:
 
 ## Talks
 
-I've given a lot of talks. Many (not all) of them are [archived on GitHub here](https://github.com/mdwelsh/mdwelsh.github.io/tree/master/talks).
+I've given a lot of talks. Many (not all) of them are [archived on GitHub here](https://github.com/mdwelsh/mdwelsh.github.io/tree/main/astro/public/talks).
 
 ## Papers
 
-[Most of my papers are available on GitHub here.](https://github.com/mdwelsh/mdwelsh.github.io/tree/master/papers)
+[Most of my papers are available on GitHub here.](https://github.com/mdwelsh/mdwelsh.github.io/tree/main/astro/public/papers)
 
 [Flywheel: Google's Data Compression Proxy for the Mobile Web](/papers/flywheel-nsdi15.pdf),
 Victor Agababov, Michael Buettner, Victor Chudnovsky, Mark Cogan, Ben Greenstein, Shane McDaniel, Michael Piatek, Colin Scott, Matt Welsh, and Bolian Yin.

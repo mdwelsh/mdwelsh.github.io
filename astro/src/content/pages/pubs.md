@@ -1,9 +1,16 @@
 ---
-layout: page
 title: Publications and Talks
+author: Matt Welsh
+pubDatetime: 2024-05-04T19:58:00Z
+modDatetime: 2024-05-04T19:58:00Z
+slug: pubs
+featured: true
+draft: false
+tags:
+  - docs
+description:
+  Stuff I've written.
 ---
-
-The following are publications and talks by [Matt Welsh](http://www.mdw.la).
 
 ## Talks
 

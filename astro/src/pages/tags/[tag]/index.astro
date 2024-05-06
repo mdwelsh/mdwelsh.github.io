@@ -6,7 +6,7 @@ import getPagination from "@utils/getPagination";
 import getUniqueTags from "@utils/getUniqueTags";
 
 export async function getStaticPaths() {
-  const posts = await getCollection("blog");
+  const posts = await getCollection("pages");
 
   const tags = getUniqueTags(posts);
 

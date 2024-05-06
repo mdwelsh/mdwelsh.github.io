@@ -9,7 +9,7 @@ import SearchBar from "@components/Search";
 import getSortedPosts from "@utils/getSortedPosts";
 
 // Retrieve all published articles
-const posts = await getCollection("blog", ({ data }) => !data.draft);
+const posts = await getCollection("pages", ({ data }) => !data.draft);
 const sortedPosts = getSortedPosts(posts);
 
 // List of items to search in

@@ -1,0 +1,88 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "@layouts/Layout.astro";
+import Header from "@components/Header.astro";
+import Footer from "@components/Footer.astro";
+import LinkButton from "@components/LinkButton.astro";
+import Hr from "@components/Hr.astro";
+import Card from "@components/Card";
+import Socials from "@components/Socials.astro";
+import getSortedPosts from "@utils/getSortedPosts";
+import { SOCIALS } from "@config";
+import { Content as IntroContent } from "@content/main/intro.mdx";
+
+const posts = await getCollection("pages");
+const sortedPosts = getSortedPosts(posts);
+const socialCount = SOCIALS.filter(social => social.active).length;
+---
+
+<Layout>
+  <Header />
+  <main id="main-content"></main>
+  <section id="hero">
+    <img
+      class="md:block float-right mx-4 size-[120px] sm:size-[200px]"
+      src="/mdw-woods-lowres.png"
+      alt="Matt Welsh image"
+    />
+    <article
+      id="article"
+      role="article"
+      class="prose mx-auto max-w-3xl text-sm"
+    >
+      <IntroContent />
+    </article>
+  </section>
+  <div class="px-4 mx-auto max-w-3xl">
+    <ul>
+      {
+        sortedPosts.map(({ data, slug }) => (
+          <Card
+            href={`/posts/${slug}/`}
+            frontmatter={data}
+            secHeading={false}
+          />
+        ))
+      }
+    </ul>
+  </div>
+  <Footer />
+</Layout>
+
+<style>
+  /* ===== Hero Section ===== */
+  #hero {
+    @apply pb-6 pt-8;
+  }
+  #hero h1 {
+    @apply my-4 inline-block text-3xl font-bold sm:my-8 sm:text-5xl;
+  }
+  #hero .rss-link {
+    @apply mb-6;
+  }
+  #hero .rss-icon {
+    @apply mb-2 h-6 w-6 scale-110 fill-skin-accent sm:mb-3 sm:scale-125;
+  }
+  #hero p {
+    @apply my-2;
+  }
+  .social-wrapper {
+    @apply mt-4 flex flex-col sm:flex-row sm:items-center;
+  }
+  .social-links {
+    @apply mb-1 mr-2 whitespace-nowrap sm:mb-0;
+  }
+
+  /* ===== Featured & Recent Posts Sections ===== */
+  #featured,
+  #recent-posts {
+    @apply pb-6 pt-12;
+  }
+  #featured h2,
+  #recent-posts h2 {
+    @apply text-2xl font-semibold tracking-wide;
+  }
+  .all-posts-btn-wrapper {
+    @apply my-8 text-center;
+  }
+</style>

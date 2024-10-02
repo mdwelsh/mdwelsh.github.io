@@ -31,6 +31,21 @@ own applications. We raised $17M in seed funding from top-tier VCs in early
 after the company pivoted into a very different space in early 2024, but I
 am continuing to work in this space.
 
+## Podverse - AI superpowers for podcasters
+
+I built [Podverse](https://podverse.ai), a site that automates the process
+of generating transcripts, summaries, and AI chatbots from podcasts.
+
+I listen to a ton of podcasts, but it's frustrating to find relevant episodes, or
+even content that I had listened to previously. I also know that podcasters want to
+take advantage of the latest AI tech to connect with and expand their audience, but
+they're not usually equipped to bring all the pieces together. I wanted to build a
+complete, end-to-end solution for podcasters that is easy to use.
+
+All you have to do is provide your RSS feed URL, and Podverse does the rest — automatically
+ingesting new episodes as you release them, generating transcripts and summaries, identifying
+speakers, and populating a custom chatbot that knows about all of the content of your podcast.
+
 ## Optimizing ML models for deployment
 
 I worked at both [OctoML](https://octoml.ai) and

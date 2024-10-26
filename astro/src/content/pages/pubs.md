@@ -20,6 +20,11 @@ I've given a lot of talks. Many (not all) of them are [archived on GitHub here](
 
 [Most of my papers are available on GitHub here.](https://github.com/mdwelsh/mdwelsh.github.io/tree/main/astro/public/papers)
 
+[The Design of an LLM-powered Unstructured Analytics System](https://www.cidrdb.org/cidr2025/papers.html),
+Eric Anderson, Jonathan Fritz, Austin Lee, Bohou Li, Mark Lindblad, Henry Lindeman, Alex Meyer,
+Parth Parmar, Tanvi Ranade, Mehul Shah, Benjamin Sowell, Dan Tecuci, Vinayak Thapliyal, and Matt Welsh.
+In Proceedings of CIDR 2025, January 2025.
+
 [Flywheel: Google's Data Compression Proxy for the Mobile Web](/papers/flywheel-nsdi15.pdf),
 Victor Agababov, Michael Buettner, Victor Chudnovsky, Mark Cogan, Ben Greenstein, Shane McDaniel, Michael Piatek, Colin Scott, Matt Welsh, and Bolian Yin.
 In Proceedings of the 12th USENIX Symposium on Networked Systems Design and Implementation (NSDI 2015), May 2015.

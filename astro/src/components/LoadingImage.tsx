@@ -45,6 +45,7 @@ export function LoadingImage({
       if (canvasRef.current) {
         canvasRef.current.width = img.width;
         canvasRef.current.height = img.height;
+        // @ts-ignore
         imageRef.current = img;
         setImageLoaded(true);
 

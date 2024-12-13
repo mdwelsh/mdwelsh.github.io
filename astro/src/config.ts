@@ -5,7 +5,7 @@ export const SITE: Site = {
   author: "Matt Welsh",
   desc: "Matt Welsh's home page.",
   title: "mdw.la :: Matt Welsh",
-  ogImage: "astropaper-og.jpg",
+  ogImage: "mdw-woods-lowres.png",
   lightAndDarkMode: true,
   postPerPage: 3,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes

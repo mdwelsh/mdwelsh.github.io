@@ -10,6 +10,7 @@ import Socials from "@components/Socials.astro";
 import getSortedPosts from "@utils/getSortedPosts";
 import { SOCIALS } from "@config";
 import { Content as IntroContent } from "@content/main/intro.mdx";
+import { LoadingImage } from "@components/LoadingImage";
 
 const posts = await getCollection("pages");
 const sortedPosts = getSortedPosts(posts);
@@ -20,11 +21,9 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   <Header />
   <main id="main-content"></main>
   <section id="hero">
-    <img
-      class="md:block float-right mx-4 size-[120px] sm:size-[200px]"
-      src="/mdw-woods-lowres.png"
-      alt="Matt Welsh image"
-    />
+    <div class="md:block float-right mx-4 size-[120px] sm:size-[200px]">
+      <LoadingImage client:load src="/mdw-woods-lowres.png" />
+    </div>
     <article
       id="article"
       role="article"
